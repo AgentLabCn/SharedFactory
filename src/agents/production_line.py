@@ -12,7 +12,7 @@ class ProductionLine:
                  base_inconvenience: float,
                  inconvenience_level: float):  
         self.id = line_id
-        self.quality_index = quality_index  # Production line quality index
+        self.quality_index = quality_index  # Production line characteristic index
         self.base_inconvenience = base_inconvenience
         self.inconvenience_level = inconvenience_level
         
@@ -64,29 +64,29 @@ class ProductionLine:
         order.production_start_time = current_time
         
     def is_available_at(self, time: int) -> bool:
-        """Check if line is available at specified time"""
+        """Check availability at specified time point"""
         return not any(t >= time for t in self.production_schedule.keys())
 
     def get_next_available_time(self) -> int:
-        """Get next available time"""
+        """Get next available time point"""
         if not self.production_schedule:
             return 0
         return max(self.production_schedule.keys())
         
     def step(self, current_time: int) -> Optional[int]:
         """Time step update"""
-        # Check for completed orders
+        # Check for order completion
         if current_time in self.production_schedule:
             completed_order_id = self.production_schedule[current_time]
-            
-            if self.current_order:  
+            # Record completion time first
+            if self.current_order:  # Add check
                 self.current_order.completion_time = current_time
             
-            # Update status
+            # Update state
             self.is_working = False
             self.completed_orders += 1
             
-            # Clear order
+            # Clean up order
             self.current_order = None
             del self.production_schedule[current_time]
             
