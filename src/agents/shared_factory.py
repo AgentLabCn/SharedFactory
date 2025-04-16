@@ -1,13 +1,13 @@
 import numpy as np
 
 class SharedFactory:
-    """Shared factory agent class for managing global factory state"""
+    """Shared factory agent class"""
     
     def __init__(self, 
                  alpha1: float = 0.5,  # Cost-profit ratio weight
                  alpha2: float = 0.3,  # Equipment utilization weight
-                 alpha3: float = 0.2,  # Delay rate weight
-                 knowledge_transfer_rate: float = 0.02):  # Knowledge transfer rate
+                 alpha3: float = 0.2,  # Delay ratio weight
+                 knowledge_transfer_rate: float = 0.02):  # Knowledge transfer rate parameter
         
         # Weight parameters
         self.alpha1 = alpha1
@@ -23,13 +23,19 @@ class SharedFactory:
         self.knowledge_effect = 1.0  
         self.equipment_efficiency = 0.0
         self.completed_designs = 0  # For knowledge effect calculation
-        self.completed_orders = 0   # For delay rate calculation
+        self.completed_orders = 0   # For delay ratio calculation
         self.total_delay_time = 0  
+        
+        # Remove strategy-related attributes
         self.acceptance_threshold = 0.0
         self.min_orders = 0
         
     def update_knowledge_effect(self):
-        """Update knowledge effect"""
+        """Update knowledge effect
+        k_t = na_t^(-b)
+        na_t: Cumulative number of completed design orders
+        b: Knowledge transfer rate
+        """
         if self.completed_designs == 0:
             self.knowledge_effect = 1.0
         else:
@@ -68,12 +74,12 @@ class SharedFactory:
         """Calculate current equipment utilization efficiency
         
         Returns:
-            float: Current equipment efficiency value
+            float: Current equipment utilization efficiency value
         """
         return self.equipment_efficiency
         
     def update_metrics(self, completed_order):
-        """Update order completion metrics"""
+        """Update order completion related metrics"""
         # Update delay-related metrics
         if completed_order.is_delayed:
             self.delayed_orders += 1
@@ -86,7 +92,7 @@ class SharedFactory:
         design_cost = (completed_order.value * completed_order.era_ratio * 
                       (completed_order.design_mismatch + 1) * self.knowledge_effect)
         
-        # Only add design cost, production cost is handled in update_production_cost
+        # Only accumulate design cost, production cost is handled in update_production_cost
         self.total_cost += design_cost
         self.total_profit += (completed_order.value - design_cost)
         
