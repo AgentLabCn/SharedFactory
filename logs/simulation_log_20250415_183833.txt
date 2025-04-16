@@ -1,0 +1,3610 @@
+Simulation started at 20250415_183833
+Parameters: production_lines=10, duration=120, order_interval=3, knowledge_rate=0.04, inconvenience=0.02
+
+Time step: 1
+Active orders: 1
+Completed orders: 0
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 0: progress 1/7 (remaining: 6, expected completion: 7)
+    Expected design duration: 7, Expected completion time: 30
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Available
+  Line 2: Available
+  Line 3: Available
+  Line 4: Available
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 2
+Active orders: 1
+Completed orders: 0
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 0: progress 2/7 (remaining: 5, expected completion: 7)
+    Expected design duration: 7, Expected completion time: 30
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Available
+  Line 2: Available
+  Line 3: Available
+  Line 4: Available
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 3
+Active orders: 1
+Completed orders: 0
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 0: progress 3/7 (remaining: 4, expected completion: 7)
+    Expected design duration: 7, Expected completion time: 30
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Available
+  Line 2: Available
+  Line 3: Available
+  Line 4: Available
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 4
+Active orders: 2
+Completed orders: 0
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 0: progress 4/7 (remaining: 3, expected completion: 7)
+    Expected design duration: 7, Expected completion time: 30
+  Order 1: progress 1/6 (remaining: 5, expected completion: 9)
+    Expected design duration: 7, Expected completion time: 33
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Available
+  Line 2: Available
+  Line 3: Available
+  Line 4: Available
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 5
+Active orders: 2
+Completed orders: 0
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 0: progress 5/7 (remaining: 2, expected completion: 7)
+    Expected design duration: 7, Expected completion time: 30
+  Order 1: progress 2/6 (remaining: 4, expected completion: 9)
+    Expected design duration: 7, Expected completion time: 33
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Available
+  Line 2: Available
+  Line 3: Available
+  Line 4: Available
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 6
+Active orders: 2
+Completed orders: 0
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 0: progress 6/7 (remaining: 1, expected completion: 7)
+    Expected design duration: 7, Expected completion time: 30
+  Order 1: progress 3/6 (remaining: 3, expected completion: 9)
+    Expected design duration: 7, Expected completion time: 33
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Available
+  Line 2: Available
+  Line 3: Available
+  Line 4: Available
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 7
+Active orders: 3
+Completed orders: 0
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 1: progress 4/6 (remaining: 2, expected completion: 9)
+    Expected design duration: 7, Expected completion time: 33
+  Order 2: progress 1/7 (remaining: 6, expected completion: 13)
+    Expected design duration: 7, Expected completion time: 36
+
+Production Lines Status:
+  Line 0: Working on Order 0 (remaining: 21, completion at: 28)
+    Order expected completion time: 30, Will be delayed: False
+  Line 1: Available
+  Line 2: Available
+  Line 3: Available
+  Line 4: Available
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 8
+Active orders: 3
+Completed orders: 0
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 1: progress 5/6 (remaining: 1, expected completion: 9)
+    Expected design duration: 7, Expected completion time: 33
+  Order 2: progress 2/7 (remaining: 5, expected completion: 13)
+    Expected design duration: 7, Expected completion time: 36
+
+Production Lines Status:
+  Line 0: Working on Order 0 (remaining: 20, completion at: 28)
+    Order expected completion time: 30, Will be delayed: False
+  Line 1: Available
+  Line 2: Available
+  Line 3: Available
+  Line 4: Available
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 9
+Active orders: 3
+Completed orders: 0
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 2: progress 3/7 (remaining: 4, expected completion: 13)
+    Expected design duration: 7, Expected completion time: 36
+
+Production Lines Status:
+  Line 0: Working on Order 0 (remaining: 19, completion at: 28)
+    Order expected completion time: 30, Will be delayed: False
+  Line 1: Working on Order 1 (remaining: 19, completion at: 28)
+    Order expected completion time: 33, Will be delayed: False
+  Line 2: Available
+  Line 3: Available
+  Line 4: Available
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 10
+Active orders: 4
+Completed orders: 0
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 2: progress 4/7 (remaining: 3, expected completion: 13)
+    Expected design duration: 7, Expected completion time: 36
+  Order 3: progress 1/7 (remaining: 6, expected completion: 16)
+    Expected design duration: 7, Expected completion time: 39
+
+Production Lines Status:
+  Line 0: Working on Order 0 (remaining: 18, completion at: 28)
+    Order expected completion time: 30, Will be delayed: False
+  Line 1: Working on Order 1 (remaining: 18, completion at: 28)
+    Order expected completion time: 33, Will be delayed: False
+  Line 2: Available
+  Line 3: Available
+  Line 4: Available
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 11
+Active orders: 4
+Completed orders: 0
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 2: progress 5/7 (remaining: 2, expected completion: 13)
+    Expected design duration: 7, Expected completion time: 36
+  Order 3: progress 2/7 (remaining: 5, expected completion: 16)
+    Expected design duration: 7, Expected completion time: 39
+
+Production Lines Status:
+  Line 0: Working on Order 0 (remaining: 17, completion at: 28)
+    Order expected completion time: 30, Will be delayed: False
+  Line 1: Working on Order 1 (remaining: 17, completion at: 28)
+    Order expected completion time: 33, Will be delayed: False
+  Line 2: Available
+  Line 3: Available
+  Line 4: Available
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 12
+Active orders: 4
+Completed orders: 0
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 2: progress 6/7 (remaining: 1, expected completion: 13)
+    Expected design duration: 7, Expected completion time: 36
+  Order 3: progress 3/7 (remaining: 4, expected completion: 16)
+    Expected design duration: 7, Expected completion time: 39
+
+Production Lines Status:
+  Line 0: Working on Order 0 (remaining: 16, completion at: 28)
+    Order expected completion time: 30, Will be delayed: False
+  Line 1: Working on Order 1 (remaining: 16, completion at: 28)
+    Order expected completion time: 33, Will be delayed: False
+  Line 2: Available
+  Line 3: Available
+  Line 4: Available
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 13
+Active orders: 5
+Completed orders: 0
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 3: progress 4/7 (remaining: 3, expected completion: 16)
+    Expected design duration: 7, Expected completion time: 39
+  Order 4: progress 1/7 (remaining: 6, expected completion: 19)
+    Expected design duration: 7, Expected completion time: 42
+
+Production Lines Status:
+  Line 0: Working on Order 0 (remaining: 15, completion at: 28)
+    Order expected completion time: 30, Will be delayed: False
+  Line 1: Working on Order 1 (remaining: 15, completion at: 28)
+    Order expected completion time: 33, Will be delayed: False
+  Line 2: Working on Order 2 (remaining: 20, completion at: 33)
+    Order expected completion time: 36, Will be delayed: False
+  Line 3: Available
+  Line 4: Available
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 14
+Active orders: 5
+Completed orders: 0
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 3: progress 5/7 (remaining: 2, expected completion: 16)
+    Expected design duration: 7, Expected completion time: 39
+  Order 4: progress 2/7 (remaining: 5, expected completion: 19)
+    Expected design duration: 7, Expected completion time: 42
+
+Production Lines Status:
+  Line 0: Working on Order 0 (remaining: 14, completion at: 28)
+    Order expected completion time: 30, Will be delayed: False
+  Line 1: Working on Order 1 (remaining: 14, completion at: 28)
+    Order expected completion time: 33, Will be delayed: False
+  Line 2: Working on Order 2 (remaining: 19, completion at: 33)
+    Order expected completion time: 36, Will be delayed: False
+  Line 3: Available
+  Line 4: Available
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 15
+Active orders: 5
+Completed orders: 0
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 3: progress 6/7 (remaining: 1, expected completion: 16)
+    Expected design duration: 7, Expected completion time: 39
+  Order 4: progress 3/7 (remaining: 4, expected completion: 19)
+    Expected design duration: 7, Expected completion time: 42
+
+Production Lines Status:
+  Line 0: Working on Order 0 (remaining: 13, completion at: 28)
+    Order expected completion time: 30, Will be delayed: False
+  Line 1: Working on Order 1 (remaining: 13, completion at: 28)
+    Order expected completion time: 33, Will be delayed: False
+  Line 2: Working on Order 2 (remaining: 18, completion at: 33)
+    Order expected completion time: 36, Will be delayed: False
+  Line 3: Available
+  Line 4: Available
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 16
+Active orders: 6
+Completed orders: 0
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 4: progress 4/7 (remaining: 3, expected completion: 19)
+    Expected design duration: 7, Expected completion time: 42
+  Order 5: progress 1/7 (remaining: 6, expected completion: 22)
+    Expected design duration: 7, Expected completion time: 45
+
+Production Lines Status:
+  Line 0: Working on Order 0 (remaining: 12, completion at: 28)
+    Order expected completion time: 30, Will be delayed: False
+  Line 1: Working on Order 1 (remaining: 12, completion at: 28)
+    Order expected completion time: 33, Will be delayed: False
+  Line 2: Working on Order 2 (remaining: 17, completion at: 33)
+    Order expected completion time: 36, Will be delayed: False
+  Line 3: Working on Order 3 (remaining: 22, completion at: 38)
+    Order expected completion time: 39, Will be delayed: False
+  Line 4: Available
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 17
+Active orders: 6
+Completed orders: 0
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 4: progress 5/7 (remaining: 2, expected completion: 19)
+    Expected design duration: 7, Expected completion time: 42
+  Order 5: progress 2/7 (remaining: 5, expected completion: 22)
+    Expected design duration: 7, Expected completion time: 45
+
+Production Lines Status:
+  Line 0: Working on Order 0 (remaining: 11, completion at: 28)
+    Order expected completion time: 30, Will be delayed: False
+  Line 1: Working on Order 1 (remaining: 11, completion at: 28)
+    Order expected completion time: 33, Will be delayed: False
+  Line 2: Working on Order 2 (remaining: 16, completion at: 33)
+    Order expected completion time: 36, Will be delayed: False
+  Line 3: Working on Order 3 (remaining: 21, completion at: 38)
+    Order expected completion time: 39, Will be delayed: False
+  Line 4: Available
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 18
+Active orders: 6
+Completed orders: 0
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 4: progress 6/7 (remaining: 1, expected completion: 19)
+    Expected design duration: 7, Expected completion time: 42
+  Order 5: progress 3/7 (remaining: 4, expected completion: 22)
+    Expected design duration: 7, Expected completion time: 45
+
+Production Lines Status:
+  Line 0: Working on Order 0 (remaining: 10, completion at: 28)
+    Order expected completion time: 30, Will be delayed: False
+  Line 1: Working on Order 1 (remaining: 10, completion at: 28)
+    Order expected completion time: 33, Will be delayed: False
+  Line 2: Working on Order 2 (remaining: 15, completion at: 33)
+    Order expected completion time: 36, Will be delayed: False
+  Line 3: Working on Order 3 (remaining: 20, completion at: 38)
+    Order expected completion time: 39, Will be delayed: False
+  Line 4: Available
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 19
+Active orders: 7
+Completed orders: 0
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 5: progress 4/7 (remaining: 3, expected completion: 22)
+    Expected design duration: 7, Expected completion time: 45
+  Order 6: progress 1/6 (remaining: 5, expected completion: 24)
+    Expected design duration: 7, Expected completion time: 48
+
+Production Lines Status:
+  Line 0: Working on Order 0 (remaining: 9, completion at: 28)
+    Order expected completion time: 30, Will be delayed: False
+  Line 1: Working on Order 1 (remaining: 9, completion at: 28)
+    Order expected completion time: 33, Will be delayed: False
+  Line 2: Working on Order 2 (remaining: 14, completion at: 33)
+    Order expected completion time: 36, Will be delayed: False
+  Line 3: Working on Order 3 (remaining: 19, completion at: 38)
+    Order expected completion time: 39, Will be delayed: False
+  Line 4: Working on Order 4 (remaining: 19, completion at: 38)
+    Order expected completion time: 42, Will be delayed: False
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 20
+Active orders: 7
+Completed orders: 0
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 5: progress 5/7 (remaining: 2, expected completion: 22)
+    Expected design duration: 7, Expected completion time: 45
+  Order 6: progress 2/6 (remaining: 4, expected completion: 24)
+    Expected design duration: 7, Expected completion time: 48
+
+Production Lines Status:
+  Line 0: Working on Order 0 (remaining: 8, completion at: 28)
+    Order expected completion time: 30, Will be delayed: False
+  Line 1: Working on Order 1 (remaining: 8, completion at: 28)
+    Order expected completion time: 33, Will be delayed: False
+  Line 2: Working on Order 2 (remaining: 13, completion at: 33)
+    Order expected completion time: 36, Will be delayed: False
+  Line 3: Working on Order 3 (remaining: 18, completion at: 38)
+    Order expected completion time: 39, Will be delayed: False
+  Line 4: Working on Order 4 (remaining: 18, completion at: 38)
+    Order expected completion time: 42, Will be delayed: False
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 21
+Active orders: 7
+Completed orders: 0
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 5: progress 6/7 (remaining: 1, expected completion: 22)
+    Expected design duration: 7, Expected completion time: 45
+  Order 6: progress 3/6 (remaining: 3, expected completion: 24)
+    Expected design duration: 7, Expected completion time: 48
+
+Production Lines Status:
+  Line 0: Working on Order 0 (remaining: 7, completion at: 28)
+    Order expected completion time: 30, Will be delayed: False
+  Line 1: Working on Order 1 (remaining: 7, completion at: 28)
+    Order expected completion time: 33, Will be delayed: False
+  Line 2: Working on Order 2 (remaining: 12, completion at: 33)
+    Order expected completion time: 36, Will be delayed: False
+  Line 3: Working on Order 3 (remaining: 17, completion at: 38)
+    Order expected completion time: 39, Will be delayed: False
+  Line 4: Working on Order 4 (remaining: 17, completion at: 38)
+    Order expected completion time: 42, Will be delayed: False
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 22
+Active orders: 8
+Completed orders: 0
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 6: progress 4/6 (remaining: 2, expected completion: 24)
+    Expected design duration: 7, Expected completion time: 48
+  Order 7: progress 1/6 (remaining: 5, expected completion: 27)
+    Expected design duration: 7, Expected completion time: 51
+
+Production Lines Status:
+  Line 0: Working on Order 0 (remaining: 6, completion at: 28)
+    Order expected completion time: 30, Will be delayed: False
+  Line 1: Working on Order 1 (remaining: 6, completion at: 28)
+    Order expected completion time: 33, Will be delayed: False
+  Line 2: Working on Order 2 (remaining: 11, completion at: 33)
+    Order expected completion time: 36, Will be delayed: False
+  Line 3: Working on Order 3 (remaining: 16, completion at: 38)
+    Order expected completion time: 39, Will be delayed: False
+  Line 4: Working on Order 4 (remaining: 16, completion at: 38)
+    Order expected completion time: 42, Will be delayed: False
+  Line 5: Working on Order 5 (remaining: 22, completion at: 44)
+    Order expected completion time: 45, Will be delayed: False
+  Line 6: Available
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 23
+Active orders: 8
+Completed orders: 0
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 6: progress 5/6 (remaining: 1, expected completion: 24)
+    Expected design duration: 7, Expected completion time: 48
+  Order 7: progress 2/6 (remaining: 4, expected completion: 27)
+    Expected design duration: 7, Expected completion time: 51
+
+Production Lines Status:
+  Line 0: Working on Order 0 (remaining: 5, completion at: 28)
+    Order expected completion time: 30, Will be delayed: False
+  Line 1: Working on Order 1 (remaining: 5, completion at: 28)
+    Order expected completion time: 33, Will be delayed: False
+  Line 2: Working on Order 2 (remaining: 10, completion at: 33)
+    Order expected completion time: 36, Will be delayed: False
+  Line 3: Working on Order 3 (remaining: 15, completion at: 38)
+    Order expected completion time: 39, Will be delayed: False
+  Line 4: Working on Order 4 (remaining: 15, completion at: 38)
+    Order expected completion time: 42, Will be delayed: False
+  Line 5: Working on Order 5 (remaining: 21, completion at: 44)
+    Order expected completion time: 45, Will be delayed: False
+  Line 6: Available
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 24
+Active orders: 8
+Completed orders: 0
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 7: progress 3/6 (remaining: 3, expected completion: 27)
+    Expected design duration: 7, Expected completion time: 51
+
+Production Lines Status:
+  Line 0: Working on Order 0 (remaining: 4, completion at: 28)
+    Order expected completion time: 30, Will be delayed: False
+  Line 1: Working on Order 1 (remaining: 4, completion at: 28)
+    Order expected completion time: 33, Will be delayed: False
+  Line 2: Working on Order 2 (remaining: 9, completion at: 33)
+    Order expected completion time: 36, Will be delayed: False
+  Line 3: Working on Order 3 (remaining: 14, completion at: 38)
+    Order expected completion time: 39, Will be delayed: False
+  Line 4: Working on Order 4 (remaining: 14, completion at: 38)
+    Order expected completion time: 42, Will be delayed: False
+  Line 5: Working on Order 5 (remaining: 20, completion at: 44)
+    Order expected completion time: 45, Will be delayed: False
+  Line 6: Working on Order 6 (remaining: 23, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 25
+Active orders: 9
+Completed orders: 0
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 7: progress 4/6 (remaining: 2, expected completion: 27)
+    Expected design duration: 7, Expected completion time: 51
+  Order 8: progress 1/7 (remaining: 6, expected completion: 31)
+    Expected design duration: 7, Expected completion time: 54
+
+Production Lines Status:
+  Line 0: Working on Order 0 (remaining: 3, completion at: 28)
+    Order expected completion time: 30, Will be delayed: False
+  Line 1: Working on Order 1 (remaining: 3, completion at: 28)
+    Order expected completion time: 33, Will be delayed: False
+  Line 2: Working on Order 2 (remaining: 8, completion at: 33)
+    Order expected completion time: 36, Will be delayed: False
+  Line 3: Working on Order 3 (remaining: 13, completion at: 38)
+    Order expected completion time: 39, Will be delayed: False
+  Line 4: Working on Order 4 (remaining: 13, completion at: 38)
+    Order expected completion time: 42, Will be delayed: False
+  Line 5: Working on Order 5 (remaining: 19, completion at: 44)
+    Order expected completion time: 45, Will be delayed: False
+  Line 6: Working on Order 6 (remaining: 22, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 26
+Active orders: 9
+Completed orders: 0
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 7: progress 5/6 (remaining: 1, expected completion: 27)
+    Expected design duration: 7, Expected completion time: 51
+  Order 8: progress 2/7 (remaining: 5, expected completion: 31)
+    Expected design duration: 7, Expected completion time: 54
+
+Production Lines Status:
+  Line 0: Working on Order 0 (remaining: 2, completion at: 28)
+    Order expected completion time: 30, Will be delayed: False
+  Line 1: Working on Order 1 (remaining: 2, completion at: 28)
+    Order expected completion time: 33, Will be delayed: False
+  Line 2: Working on Order 2 (remaining: 7, completion at: 33)
+    Order expected completion time: 36, Will be delayed: False
+  Line 3: Working on Order 3 (remaining: 12, completion at: 38)
+    Order expected completion time: 39, Will be delayed: False
+  Line 4: Working on Order 4 (remaining: 12, completion at: 38)
+    Order expected completion time: 42, Will be delayed: False
+  Line 5: Working on Order 5 (remaining: 18, completion at: 44)
+    Order expected completion time: 45, Will be delayed: False
+  Line 6: Working on Order 6 (remaining: 21, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Available
+  Line 8: Available
+  Line 9: Available
+
+Time step: 27
+Active orders: 9
+Completed orders: 0
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 8: progress 3/7 (remaining: 4, expected completion: 31)
+    Expected design duration: 7, Expected completion time: 54
+
+Production Lines Status:
+  Line 0: Working on Order 0 (remaining: 1, completion at: 28)
+    Order expected completion time: 30, Will be delayed: False
+  Line 1: Working on Order 1 (remaining: 1, completion at: 28)
+    Order expected completion time: 33, Will be delayed: False
+  Line 2: Working on Order 2 (remaining: 6, completion at: 33)
+    Order expected completion time: 36, Will be delayed: False
+  Line 3: Working on Order 3 (remaining: 11, completion at: 38)
+    Order expected completion time: 39, Will be delayed: False
+  Line 4: Working on Order 4 (remaining: 11, completion at: 38)
+    Order expected completion time: 42, Will be delayed: False
+  Line 5: Working on Order 5 (remaining: 17, completion at: 44)
+    Order expected completion time: 45, Will be delayed: False
+  Line 6: Working on Order 6 (remaining: 20, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Working on Order 7 (remaining: 19, completion at: 46)
+    Order expected completion time: 51, Will be delayed: False
+  Line 8: Available
+  Line 9: Available
+
+Time step: 28
+Active orders: 10
+Completed orders: 0
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 8: progress 4/7 (remaining: 3, expected completion: 31)
+    Expected design duration: 7, Expected completion time: 54
+  Order 9: progress 1/6 (remaining: 5, expected completion: 33)
+    Expected design duration: 7, Expected completion time: 57
+
+Production Lines Status:
+  Line 0: Working on Order 0 (remaining: 0, completion at: 28)
+    Order expected completion time: 30, Will be delayed: False
+  Line 1: Working on Order 1 (remaining: 0, completion at: 28)
+    Order expected completion time: 33, Will be delayed: False
+  Line 2: Working on Order 2 (remaining: 5, completion at: 33)
+    Order expected completion time: 36, Will be delayed: False
+  Line 3: Working on Order 3 (remaining: 10, completion at: 38)
+    Order expected completion time: 39, Will be delayed: False
+  Line 4: Working on Order 4 (remaining: 10, completion at: 38)
+    Order expected completion time: 42, Will be delayed: False
+  Line 5: Working on Order 5 (remaining: 16, completion at: 44)
+    Order expected completion time: 45, Will be delayed: False
+  Line 6: Working on Order 6 (remaining: 19, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Working on Order 7 (remaining: 18, completion at: 46)
+    Order expected completion time: 51, Will be delayed: False
+  Line 8: Available
+  Line 9: Available
+
+Time step: 29
+Active orders: 8
+Completed orders: 2
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 8: progress 5/7 (remaining: 2, expected completion: 31)
+    Expected design duration: 7, Expected completion time: 54
+  Order 9: progress 2/6 (remaining: 4, expected completion: 33)
+    Expected design duration: 7, Expected completion time: 57
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Available
+  Line 2: Working on Order 2 (remaining: 4, completion at: 33)
+    Order expected completion time: 36, Will be delayed: False
+  Line 3: Working on Order 3 (remaining: 9, completion at: 38)
+    Order expected completion time: 39, Will be delayed: False
+  Line 4: Working on Order 4 (remaining: 9, completion at: 38)
+    Order expected completion time: 42, Will be delayed: False
+  Line 5: Working on Order 5 (remaining: 15, completion at: 44)
+    Order expected completion time: 45, Will be delayed: False
+  Line 6: Working on Order 6 (remaining: 18, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Working on Order 7 (remaining: 17, completion at: 46)
+    Order expected completion time: 51, Will be delayed: False
+  Line 8: Available
+  Line 9: Available
+
+Time step: 30
+Active orders: 8
+Completed orders: 2
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 8: progress 6/7 (remaining: 1, expected completion: 31)
+    Expected design duration: 7, Expected completion time: 54
+  Order 9: progress 3/6 (remaining: 3, expected completion: 33)
+    Expected design duration: 7, Expected completion time: 57
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Available
+  Line 2: Working on Order 2 (remaining: 3, completion at: 33)
+    Order expected completion time: 36, Will be delayed: False
+  Line 3: Working on Order 3 (remaining: 8, completion at: 38)
+    Order expected completion time: 39, Will be delayed: False
+  Line 4: Working on Order 4 (remaining: 8, completion at: 38)
+    Order expected completion time: 42, Will be delayed: False
+  Line 5: Working on Order 5 (remaining: 14, completion at: 44)
+    Order expected completion time: 45, Will be delayed: False
+  Line 6: Working on Order 6 (remaining: 17, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Working on Order 7 (remaining: 16, completion at: 46)
+    Order expected completion time: 51, Will be delayed: False
+  Line 8: Available
+  Line 9: Available
+
+Time step: 31
+Active orders: 9
+Completed orders: 2
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 9: progress 4/6 (remaining: 2, expected completion: 33)
+    Expected design duration: 7, Expected completion time: 57
+  Order 10: progress 1/7 (remaining: 6, expected completion: 37)
+    Expected design duration: 7, Expected completion time: 60
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 8 (remaining: 20, completion at: 51)
+    Order expected completion time: 54, Will be delayed: False
+  Line 2: Working on Order 2 (remaining: 2, completion at: 33)
+    Order expected completion time: 36, Will be delayed: False
+  Line 3: Working on Order 3 (remaining: 7, completion at: 38)
+    Order expected completion time: 39, Will be delayed: False
+  Line 4: Working on Order 4 (remaining: 7, completion at: 38)
+    Order expected completion time: 42, Will be delayed: False
+  Line 5: Working on Order 5 (remaining: 13, completion at: 44)
+    Order expected completion time: 45, Will be delayed: False
+  Line 6: Working on Order 6 (remaining: 16, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Working on Order 7 (remaining: 15, completion at: 46)
+    Order expected completion time: 51, Will be delayed: False
+  Line 8: Available
+  Line 9: Available
+
+Time step: 32
+Active orders: 9
+Completed orders: 2
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 9: progress 5/6 (remaining: 1, expected completion: 33)
+    Expected design duration: 7, Expected completion time: 57
+  Order 10: progress 2/7 (remaining: 5, expected completion: 37)
+    Expected design duration: 7, Expected completion time: 60
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 8 (remaining: 19, completion at: 51)
+    Order expected completion time: 54, Will be delayed: False
+  Line 2: Working on Order 2 (remaining: 1, completion at: 33)
+    Order expected completion time: 36, Will be delayed: False
+  Line 3: Working on Order 3 (remaining: 6, completion at: 38)
+    Order expected completion time: 39, Will be delayed: False
+  Line 4: Working on Order 4 (remaining: 6, completion at: 38)
+    Order expected completion time: 42, Will be delayed: False
+  Line 5: Working on Order 5 (remaining: 12, completion at: 44)
+    Order expected completion time: 45, Will be delayed: False
+  Line 6: Working on Order 6 (remaining: 15, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Working on Order 7 (remaining: 14, completion at: 46)
+    Order expected completion time: 51, Will be delayed: False
+  Line 8: Available
+  Line 9: Available
+
+Time step: 33
+Active orders: 9
+Completed orders: 2
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 10: progress 3/7 (remaining: 4, expected completion: 37)
+    Expected design duration: 7, Expected completion time: 60
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 8 (remaining: 18, completion at: 51)
+    Order expected completion time: 54, Will be delayed: False
+  Line 2: Working on Order 2 (remaining: 0, completion at: 33)
+    Order expected completion time: 36, Will be delayed: False
+  Line 3: Working on Order 3 (remaining: 5, completion at: 38)
+    Order expected completion time: 39, Will be delayed: False
+  Line 4: Working on Order 4 (remaining: 5, completion at: 38)
+    Order expected completion time: 42, Will be delayed: False
+  Line 5: Working on Order 5 (remaining: 11, completion at: 44)
+    Order expected completion time: 45, Will be delayed: False
+  Line 6: Working on Order 6 (remaining: 14, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Working on Order 7 (remaining: 13, completion at: 46)
+    Order expected completion time: 51, Will be delayed: False
+  Line 8: Working on Order 9 (remaining: 21, completion at: 54)
+    Order expected completion time: 57, Will be delayed: False
+  Line 9: Available
+
+Time step: 34
+Active orders: 9
+Completed orders: 3
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 10: progress 4/7 (remaining: 3, expected completion: 37)
+    Expected design duration: 7, Expected completion time: 60
+  Order 11: progress 1/6 (remaining: 5, expected completion: 39)
+    Expected design duration: 7, Expected completion time: 63
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 8 (remaining: 17, completion at: 51)
+    Order expected completion time: 54, Will be delayed: False
+  Line 2: Available
+  Line 3: Working on Order 3 (remaining: 4, completion at: 38)
+    Order expected completion time: 39, Will be delayed: False
+  Line 4: Working on Order 4 (remaining: 4, completion at: 38)
+    Order expected completion time: 42, Will be delayed: False
+  Line 5: Working on Order 5 (remaining: 10, completion at: 44)
+    Order expected completion time: 45, Will be delayed: False
+  Line 6: Working on Order 6 (remaining: 13, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Working on Order 7 (remaining: 12, completion at: 46)
+    Order expected completion time: 51, Will be delayed: False
+  Line 8: Working on Order 9 (remaining: 20, completion at: 54)
+    Order expected completion time: 57, Will be delayed: False
+  Line 9: Available
+
+Time step: 35
+Active orders: 9
+Completed orders: 3
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 10: progress 5/7 (remaining: 2, expected completion: 37)
+    Expected design duration: 7, Expected completion time: 60
+  Order 11: progress 2/6 (remaining: 4, expected completion: 39)
+    Expected design duration: 7, Expected completion time: 63
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 8 (remaining: 16, completion at: 51)
+    Order expected completion time: 54, Will be delayed: False
+  Line 2: Available
+  Line 3: Working on Order 3 (remaining: 3, completion at: 38)
+    Order expected completion time: 39, Will be delayed: False
+  Line 4: Working on Order 4 (remaining: 3, completion at: 38)
+    Order expected completion time: 42, Will be delayed: False
+  Line 5: Working on Order 5 (remaining: 9, completion at: 44)
+    Order expected completion time: 45, Will be delayed: False
+  Line 6: Working on Order 6 (remaining: 12, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Working on Order 7 (remaining: 11, completion at: 46)
+    Order expected completion time: 51, Will be delayed: False
+  Line 8: Working on Order 9 (remaining: 19, completion at: 54)
+    Order expected completion time: 57, Will be delayed: False
+  Line 9: Available
+
+Time step: 36
+Active orders: 9
+Completed orders: 3
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 10: progress 6/7 (remaining: 1, expected completion: 37)
+    Expected design duration: 7, Expected completion time: 60
+  Order 11: progress 3/6 (remaining: 3, expected completion: 39)
+    Expected design duration: 7, Expected completion time: 63
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 8 (remaining: 15, completion at: 51)
+    Order expected completion time: 54, Will be delayed: False
+  Line 2: Available
+  Line 3: Working on Order 3 (remaining: 2, completion at: 38)
+    Order expected completion time: 39, Will be delayed: False
+  Line 4: Working on Order 4 (remaining: 2, completion at: 38)
+    Order expected completion time: 42, Will be delayed: False
+  Line 5: Working on Order 5 (remaining: 8, completion at: 44)
+    Order expected completion time: 45, Will be delayed: False
+  Line 6: Working on Order 6 (remaining: 11, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Working on Order 7 (remaining: 10, completion at: 46)
+    Order expected completion time: 51, Will be delayed: False
+  Line 8: Working on Order 9 (remaining: 18, completion at: 54)
+    Order expected completion time: 57, Will be delayed: False
+  Line 9: Available
+
+Time step: 37
+Active orders: 10
+Completed orders: 3
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 11: progress 4/6 (remaining: 2, expected completion: 39)
+    Expected design duration: 7, Expected completion time: 63
+  Order 12: progress 1/7 (remaining: 6, expected completion: 43)
+    Expected design duration: 7, Expected completion time: 66
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 8 (remaining: 14, completion at: 51)
+    Order expected completion time: 54, Will be delayed: False
+  Line 2: Available
+  Line 3: Working on Order 3 (remaining: 1, completion at: 38)
+    Order expected completion time: 39, Will be delayed: False
+  Line 4: Working on Order 4 (remaining: 1, completion at: 38)
+    Order expected completion time: 42, Will be delayed: False
+  Line 5: Working on Order 5 (remaining: 7, completion at: 44)
+    Order expected completion time: 45, Will be delayed: False
+  Line 6: Working on Order 6 (remaining: 10, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Working on Order 7 (remaining: 9, completion at: 46)
+    Order expected completion time: 51, Will be delayed: False
+  Line 8: Working on Order 9 (remaining: 17, completion at: 54)
+    Order expected completion time: 57, Will be delayed: False
+  Line 9: Working on Order 10 (remaining: 22, completion at: 59)
+    Order expected completion time: 60, Will be delayed: False
+
+Time step: 38
+Active orders: 10
+Completed orders: 3
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 11: progress 5/6 (remaining: 1, expected completion: 39)
+    Expected design duration: 7, Expected completion time: 63
+  Order 12: progress 2/7 (remaining: 5, expected completion: 43)
+    Expected design duration: 7, Expected completion time: 66
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 8 (remaining: 13, completion at: 51)
+    Order expected completion time: 54, Will be delayed: False
+  Line 2: Available
+  Line 3: Working on Order 3 (remaining: 0, completion at: 38)
+    Order expected completion time: 39, Will be delayed: False
+  Line 4: Working on Order 4 (remaining: 0, completion at: 38)
+    Order expected completion time: 42, Will be delayed: False
+  Line 5: Working on Order 5 (remaining: 6, completion at: 44)
+    Order expected completion time: 45, Will be delayed: False
+  Line 6: Working on Order 6 (remaining: 9, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Working on Order 7 (remaining: 8, completion at: 46)
+    Order expected completion time: 51, Will be delayed: False
+  Line 8: Working on Order 9 (remaining: 16, completion at: 54)
+    Order expected completion time: 57, Will be delayed: False
+  Line 9: Working on Order 10 (remaining: 21, completion at: 59)
+    Order expected completion time: 60, Will be delayed: False
+
+Time step: 39
+Active orders: 8
+Completed orders: 5
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 12: progress 3/7 (remaining: 4, expected completion: 43)
+    Expected design duration: 7, Expected completion time: 66
+
+Production Lines Status:
+  Line 0: Working on Order 11 (remaining: 20, completion at: 59)
+    Order expected completion time: 63, Will be delayed: False
+  Line 1: Working on Order 8 (remaining: 12, completion at: 51)
+    Order expected completion time: 54, Will be delayed: False
+  Line 2: Available
+  Line 3: Available
+  Line 4: Available
+  Line 5: Working on Order 5 (remaining: 5, completion at: 44)
+    Order expected completion time: 45, Will be delayed: False
+  Line 6: Working on Order 6 (remaining: 8, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Working on Order 7 (remaining: 7, completion at: 46)
+    Order expected completion time: 51, Will be delayed: False
+  Line 8: Working on Order 9 (remaining: 15, completion at: 54)
+    Order expected completion time: 57, Will be delayed: False
+  Line 9: Working on Order 10 (remaining: 20, completion at: 59)
+    Order expected completion time: 60, Will be delayed: False
+
+Time step: 40
+Active orders: 9
+Completed orders: 5
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 12: progress 4/7 (remaining: 3, expected completion: 43)
+    Expected design duration: 7, Expected completion time: 66
+  Order 13: progress 1/6 (remaining: 5, expected completion: 45)
+    Expected design duration: 7, Expected completion time: 69
+
+Production Lines Status:
+  Line 0: Working on Order 11 (remaining: 19, completion at: 59)
+    Order expected completion time: 63, Will be delayed: False
+  Line 1: Working on Order 8 (remaining: 11, completion at: 51)
+    Order expected completion time: 54, Will be delayed: False
+  Line 2: Available
+  Line 3: Available
+  Line 4: Available
+  Line 5: Working on Order 5 (remaining: 4, completion at: 44)
+    Order expected completion time: 45, Will be delayed: False
+  Line 6: Working on Order 6 (remaining: 7, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Working on Order 7 (remaining: 6, completion at: 46)
+    Order expected completion time: 51, Will be delayed: False
+  Line 8: Working on Order 9 (remaining: 14, completion at: 54)
+    Order expected completion time: 57, Will be delayed: False
+  Line 9: Working on Order 10 (remaining: 19, completion at: 59)
+    Order expected completion time: 60, Will be delayed: False
+
+Time step: 41
+Active orders: 9
+Completed orders: 5
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 12: progress 5/7 (remaining: 2, expected completion: 43)
+    Expected design duration: 7, Expected completion time: 66
+  Order 13: progress 2/6 (remaining: 4, expected completion: 45)
+    Expected design duration: 7, Expected completion time: 69
+
+Production Lines Status:
+  Line 0: Working on Order 11 (remaining: 18, completion at: 59)
+    Order expected completion time: 63, Will be delayed: False
+  Line 1: Working on Order 8 (remaining: 10, completion at: 51)
+    Order expected completion time: 54, Will be delayed: False
+  Line 2: Available
+  Line 3: Available
+  Line 4: Available
+  Line 5: Working on Order 5 (remaining: 3, completion at: 44)
+    Order expected completion time: 45, Will be delayed: False
+  Line 6: Working on Order 6 (remaining: 6, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Working on Order 7 (remaining: 5, completion at: 46)
+    Order expected completion time: 51, Will be delayed: False
+  Line 8: Working on Order 9 (remaining: 13, completion at: 54)
+    Order expected completion time: 57, Will be delayed: False
+  Line 9: Working on Order 10 (remaining: 18, completion at: 59)
+    Order expected completion time: 60, Will be delayed: False
+
+Time step: 42
+Active orders: 9
+Completed orders: 5
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 12: progress 6/7 (remaining: 1, expected completion: 43)
+    Expected design duration: 7, Expected completion time: 66
+  Order 13: progress 3/6 (remaining: 3, expected completion: 45)
+    Expected design duration: 7, Expected completion time: 69
+
+Production Lines Status:
+  Line 0: Working on Order 11 (remaining: 17, completion at: 59)
+    Order expected completion time: 63, Will be delayed: False
+  Line 1: Working on Order 8 (remaining: 9, completion at: 51)
+    Order expected completion time: 54, Will be delayed: False
+  Line 2: Available
+  Line 3: Available
+  Line 4: Available
+  Line 5: Working on Order 5 (remaining: 2, completion at: 44)
+    Order expected completion time: 45, Will be delayed: False
+  Line 6: Working on Order 6 (remaining: 5, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Working on Order 7 (remaining: 4, completion at: 46)
+    Order expected completion time: 51, Will be delayed: False
+  Line 8: Working on Order 9 (remaining: 12, completion at: 54)
+    Order expected completion time: 57, Will be delayed: False
+  Line 9: Working on Order 10 (remaining: 17, completion at: 59)
+    Order expected completion time: 60, Will be delayed: False
+
+Time step: 43
+Active orders: 10
+Completed orders: 5
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 13: progress 4/6 (remaining: 2, expected completion: 45)
+    Expected design duration: 7, Expected completion time: 69
+  Order 14: progress 1/7 (remaining: 6, expected completion: 49)
+    Expected design duration: 7, Expected completion time: 72
+
+Production Lines Status:
+  Line 0: Working on Order 11 (remaining: 16, completion at: 59)
+    Order expected completion time: 63, Will be delayed: False
+  Line 1: Working on Order 8 (remaining: 8, completion at: 51)
+    Order expected completion time: 54, Will be delayed: False
+  Line 2: Working on Order 12 (remaining: 20, completion at: 63)
+    Order expected completion time: 66, Will be delayed: False
+  Line 3: Available
+  Line 4: Available
+  Line 5: Working on Order 5 (remaining: 1, completion at: 44)
+    Order expected completion time: 45, Will be delayed: False
+  Line 6: Working on Order 6 (remaining: 4, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Working on Order 7 (remaining: 3, completion at: 46)
+    Order expected completion time: 51, Will be delayed: False
+  Line 8: Working on Order 9 (remaining: 11, completion at: 54)
+    Order expected completion time: 57, Will be delayed: False
+  Line 9: Working on Order 10 (remaining: 16, completion at: 59)
+    Order expected completion time: 60, Will be delayed: False
+
+Time step: 44
+Active orders: 10
+Completed orders: 5
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 13: progress 5/6 (remaining: 1, expected completion: 45)
+    Expected design duration: 7, Expected completion time: 69
+  Order 14: progress 2/7 (remaining: 5, expected completion: 49)
+    Expected design duration: 7, Expected completion time: 72
+
+Production Lines Status:
+  Line 0: Working on Order 11 (remaining: 15, completion at: 59)
+    Order expected completion time: 63, Will be delayed: False
+  Line 1: Working on Order 8 (remaining: 7, completion at: 51)
+    Order expected completion time: 54, Will be delayed: False
+  Line 2: Working on Order 12 (remaining: 19, completion at: 63)
+    Order expected completion time: 66, Will be delayed: False
+  Line 3: Available
+  Line 4: Available
+  Line 5: Working on Order 5 (remaining: 0, completion at: 44)
+    Order expected completion time: 45, Will be delayed: False
+  Line 6: Working on Order 6 (remaining: 3, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Working on Order 7 (remaining: 2, completion at: 46)
+    Order expected completion time: 51, Will be delayed: False
+  Line 8: Working on Order 9 (remaining: 10, completion at: 54)
+    Order expected completion time: 57, Will be delayed: False
+  Line 9: Working on Order 10 (remaining: 15, completion at: 59)
+    Order expected completion time: 60, Will be delayed: False
+
+Time step: 45
+Active orders: 9
+Completed orders: 6
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 14: progress 3/7 (remaining: 4, expected completion: 49)
+    Expected design duration: 7, Expected completion time: 72
+
+Production Lines Status:
+  Line 0: Working on Order 11 (remaining: 14, completion at: 59)
+    Order expected completion time: 63, Will be delayed: False
+  Line 1: Working on Order 8 (remaining: 6, completion at: 51)
+    Order expected completion time: 54, Will be delayed: False
+  Line 2: Working on Order 12 (remaining: 18, completion at: 63)
+    Order expected completion time: 66, Will be delayed: False
+  Line 3: Available
+  Line 4: Working on Order 13 (remaining: 20, completion at: 65)
+    Order expected completion time: 69, Will be delayed: False
+  Line 5: Available
+  Line 6: Working on Order 6 (remaining: 2, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Working on Order 7 (remaining: 1, completion at: 46)
+    Order expected completion time: 51, Will be delayed: False
+  Line 8: Working on Order 9 (remaining: 9, completion at: 54)
+    Order expected completion time: 57, Will be delayed: False
+  Line 9: Working on Order 10 (remaining: 14, completion at: 59)
+    Order expected completion time: 60, Will be delayed: False
+
+Time step: 46
+Active orders: 10
+Completed orders: 6
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 14: progress 4/7 (remaining: 3, expected completion: 49)
+    Expected design duration: 7, Expected completion time: 72
+  Order 15: progress 1/6 (remaining: 5, expected completion: 51)
+    Expected design duration: 7, Expected completion time: 75
+
+Production Lines Status:
+  Line 0: Working on Order 11 (remaining: 13, completion at: 59)
+    Order expected completion time: 63, Will be delayed: False
+  Line 1: Working on Order 8 (remaining: 5, completion at: 51)
+    Order expected completion time: 54, Will be delayed: False
+  Line 2: Working on Order 12 (remaining: 17, completion at: 63)
+    Order expected completion time: 66, Will be delayed: False
+  Line 3: Available
+  Line 4: Working on Order 13 (remaining: 19, completion at: 65)
+    Order expected completion time: 69, Will be delayed: False
+  Line 5: Available
+  Line 6: Working on Order 6 (remaining: 1, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Working on Order 7 (remaining: 0, completion at: 46)
+    Order expected completion time: 51, Will be delayed: False
+  Line 8: Working on Order 9 (remaining: 8, completion at: 54)
+    Order expected completion time: 57, Will be delayed: False
+  Line 9: Working on Order 10 (remaining: 13, completion at: 59)
+    Order expected completion time: 60, Will be delayed: False
+
+Time step: 47
+Active orders: 9
+Completed orders: 7
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 14: progress 5/7 (remaining: 2, expected completion: 49)
+    Expected design duration: 7, Expected completion time: 72
+  Order 15: progress 2/6 (remaining: 4, expected completion: 51)
+    Expected design duration: 7, Expected completion time: 75
+
+Production Lines Status:
+  Line 0: Working on Order 11 (remaining: 12, completion at: 59)
+    Order expected completion time: 63, Will be delayed: False
+  Line 1: Working on Order 8 (remaining: 4, completion at: 51)
+    Order expected completion time: 54, Will be delayed: False
+  Line 2: Working on Order 12 (remaining: 16, completion at: 63)
+    Order expected completion time: 66, Will be delayed: False
+  Line 3: Available
+  Line 4: Working on Order 13 (remaining: 18, completion at: 65)
+    Order expected completion time: 69, Will be delayed: False
+  Line 5: Available
+  Line 6: Working on Order 6 (remaining: 0, completion at: 47)
+    Order expected completion time: 48, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 9 (remaining: 7, completion at: 54)
+    Order expected completion time: 57, Will be delayed: False
+  Line 9: Working on Order 10 (remaining: 12, completion at: 59)
+    Order expected completion time: 60, Will be delayed: False
+
+Time step: 48
+Active orders: 8
+Completed orders: 8
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 14: progress 6/7 (remaining: 1, expected completion: 49)
+    Expected design duration: 7, Expected completion time: 72
+  Order 15: progress 3/6 (remaining: 3, expected completion: 51)
+    Expected design duration: 7, Expected completion time: 75
+
+Production Lines Status:
+  Line 0: Working on Order 11 (remaining: 11, completion at: 59)
+    Order expected completion time: 63, Will be delayed: False
+  Line 1: Working on Order 8 (remaining: 3, completion at: 51)
+    Order expected completion time: 54, Will be delayed: False
+  Line 2: Working on Order 12 (remaining: 15, completion at: 63)
+    Order expected completion time: 66, Will be delayed: False
+  Line 3: Available
+  Line 4: Working on Order 13 (remaining: 17, completion at: 65)
+    Order expected completion time: 69, Will be delayed: False
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Working on Order 9 (remaining: 6, completion at: 54)
+    Order expected completion time: 57, Will be delayed: False
+  Line 9: Working on Order 10 (remaining: 11, completion at: 59)
+    Order expected completion time: 60, Will be delayed: False
+
+Time step: 49
+Active orders: 9
+Completed orders: 8
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 15: progress 4/6 (remaining: 2, expected completion: 51)
+    Expected design duration: 7, Expected completion time: 75
+  Order 16: progress 1/6 (remaining: 5, expected completion: 54)
+    Expected design duration: 7, Expected completion time: 78
+
+Production Lines Status:
+  Line 0: Working on Order 11 (remaining: 10, completion at: 59)
+    Order expected completion time: 63, Will be delayed: False
+  Line 1: Working on Order 8 (remaining: 2, completion at: 51)
+    Order expected completion time: 54, Will be delayed: False
+  Line 2: Working on Order 12 (remaining: 14, completion at: 63)
+    Order expected completion time: 66, Will be delayed: False
+  Line 3: Working on Order 14 (remaining: 21, completion at: 70)
+    Order expected completion time: 72, Will be delayed: False
+  Line 4: Working on Order 13 (remaining: 16, completion at: 65)
+    Order expected completion time: 69, Will be delayed: False
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Working on Order 9 (remaining: 5, completion at: 54)
+    Order expected completion time: 57, Will be delayed: False
+  Line 9: Working on Order 10 (remaining: 10, completion at: 59)
+    Order expected completion time: 60, Will be delayed: False
+
+Time step: 50
+Active orders: 9
+Completed orders: 8
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 15: progress 5/6 (remaining: 1, expected completion: 51)
+    Expected design duration: 7, Expected completion time: 75
+  Order 16: progress 2/6 (remaining: 4, expected completion: 54)
+    Expected design duration: 7, Expected completion time: 78
+
+Production Lines Status:
+  Line 0: Working on Order 11 (remaining: 9, completion at: 59)
+    Order expected completion time: 63, Will be delayed: False
+  Line 1: Working on Order 8 (remaining: 1, completion at: 51)
+    Order expected completion time: 54, Will be delayed: False
+  Line 2: Working on Order 12 (remaining: 13, completion at: 63)
+    Order expected completion time: 66, Will be delayed: False
+  Line 3: Working on Order 14 (remaining: 20, completion at: 70)
+    Order expected completion time: 72, Will be delayed: False
+  Line 4: Working on Order 13 (remaining: 15, completion at: 65)
+    Order expected completion time: 69, Will be delayed: False
+  Line 5: Available
+  Line 6: Available
+  Line 7: Available
+  Line 8: Working on Order 9 (remaining: 4, completion at: 54)
+    Order expected completion time: 57, Will be delayed: False
+  Line 9: Working on Order 10 (remaining: 9, completion at: 59)
+    Order expected completion time: 60, Will be delayed: False
+
+Time step: 51
+Active orders: 9
+Completed orders: 8
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 16: progress 3/6 (remaining: 3, expected completion: 54)
+    Expected design duration: 7, Expected completion time: 78
+
+Production Lines Status:
+  Line 0: Working on Order 11 (remaining: 8, completion at: 59)
+    Order expected completion time: 63, Will be delayed: False
+  Line 1: Working on Order 8 (remaining: 0, completion at: 51)
+    Order expected completion time: 54, Will be delayed: False
+  Line 2: Working on Order 12 (remaining: 12, completion at: 63)
+    Order expected completion time: 66, Will be delayed: False
+  Line 3: Working on Order 14 (remaining: 19, completion at: 70)
+    Order expected completion time: 72, Will be delayed: False
+  Line 4: Working on Order 13 (remaining: 14, completion at: 65)
+    Order expected completion time: 69, Will be delayed: False
+  Line 5: Working on Order 15 (remaining: 22, completion at: 73)
+    Order expected completion time: 75, Will be delayed: False
+  Line 6: Available
+  Line 7: Available
+  Line 8: Working on Order 9 (remaining: 3, completion at: 54)
+    Order expected completion time: 57, Will be delayed: False
+  Line 9: Working on Order 10 (remaining: 8, completion at: 59)
+    Order expected completion time: 60, Will be delayed: False
+
+Time step: 52
+Active orders: 9
+Completed orders: 9
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 16: progress 4/6 (remaining: 2, expected completion: 54)
+    Expected design duration: 7, Expected completion time: 78
+  Order 17: progress 1/6 (remaining: 5, expected completion: 57)
+    Expected design duration: 7, Expected completion time: 81
+
+Production Lines Status:
+  Line 0: Working on Order 11 (remaining: 7, completion at: 59)
+    Order expected completion time: 63, Will be delayed: False
+  Line 1: Available
+  Line 2: Working on Order 12 (remaining: 11, completion at: 63)
+    Order expected completion time: 66, Will be delayed: False
+  Line 3: Working on Order 14 (remaining: 18, completion at: 70)
+    Order expected completion time: 72, Will be delayed: False
+  Line 4: Working on Order 13 (remaining: 13, completion at: 65)
+    Order expected completion time: 69, Will be delayed: False
+  Line 5: Working on Order 15 (remaining: 21, completion at: 73)
+    Order expected completion time: 75, Will be delayed: False
+  Line 6: Available
+  Line 7: Available
+  Line 8: Working on Order 9 (remaining: 2, completion at: 54)
+    Order expected completion time: 57, Will be delayed: False
+  Line 9: Working on Order 10 (remaining: 7, completion at: 59)
+    Order expected completion time: 60, Will be delayed: False
+
+Time step: 53
+Active orders: 9
+Completed orders: 9
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 16: progress 5/6 (remaining: 1, expected completion: 54)
+    Expected design duration: 7, Expected completion time: 78
+  Order 17: progress 2/6 (remaining: 4, expected completion: 57)
+    Expected design duration: 7, Expected completion time: 81
+
+Production Lines Status:
+  Line 0: Working on Order 11 (remaining: 6, completion at: 59)
+    Order expected completion time: 63, Will be delayed: False
+  Line 1: Available
+  Line 2: Working on Order 12 (remaining: 10, completion at: 63)
+    Order expected completion time: 66, Will be delayed: False
+  Line 3: Working on Order 14 (remaining: 17, completion at: 70)
+    Order expected completion time: 72, Will be delayed: False
+  Line 4: Working on Order 13 (remaining: 12, completion at: 65)
+    Order expected completion time: 69, Will be delayed: False
+  Line 5: Working on Order 15 (remaining: 20, completion at: 73)
+    Order expected completion time: 75, Will be delayed: False
+  Line 6: Available
+  Line 7: Available
+  Line 8: Working on Order 9 (remaining: 1, completion at: 54)
+    Order expected completion time: 57, Will be delayed: False
+  Line 9: Working on Order 10 (remaining: 6, completion at: 59)
+    Order expected completion time: 60, Will be delayed: False
+
+Time step: 54
+Active orders: 9
+Completed orders: 9
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 17: progress 3/6 (remaining: 3, expected completion: 57)
+    Expected design duration: 7, Expected completion time: 81
+
+Production Lines Status:
+  Line 0: Working on Order 11 (remaining: 5, completion at: 59)
+    Order expected completion time: 63, Will be delayed: False
+  Line 1: Available
+  Line 2: Working on Order 12 (remaining: 9, completion at: 63)
+    Order expected completion time: 66, Will be delayed: False
+  Line 3: Working on Order 14 (remaining: 16, completion at: 70)
+    Order expected completion time: 72, Will be delayed: False
+  Line 4: Working on Order 13 (remaining: 11, completion at: 65)
+    Order expected completion time: 69, Will be delayed: False
+  Line 5: Working on Order 15 (remaining: 19, completion at: 73)
+    Order expected completion time: 75, Will be delayed: False
+  Line 6: Working on Order 16 (remaining: 20, completion at: 74)
+    Order expected completion time: 78, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 9 (remaining: 0, completion at: 54)
+    Order expected completion time: 57, Will be delayed: False
+  Line 9: Working on Order 10 (remaining: 5, completion at: 59)
+    Order expected completion time: 60, Will be delayed: False
+
+Time step: 55
+Active orders: 9
+Completed orders: 10
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 17: progress 4/6 (remaining: 2, expected completion: 57)
+    Expected design duration: 7, Expected completion time: 81
+  Order 18: progress 1/6 (remaining: 5, expected completion: 60)
+    Expected design duration: 7, Expected completion time: 84
+
+Production Lines Status:
+  Line 0: Working on Order 11 (remaining: 4, completion at: 59)
+    Order expected completion time: 63, Will be delayed: False
+  Line 1: Available
+  Line 2: Working on Order 12 (remaining: 8, completion at: 63)
+    Order expected completion time: 66, Will be delayed: False
+  Line 3: Working on Order 14 (remaining: 15, completion at: 70)
+    Order expected completion time: 72, Will be delayed: False
+  Line 4: Working on Order 13 (remaining: 10, completion at: 65)
+    Order expected completion time: 69, Will be delayed: False
+  Line 5: Working on Order 15 (remaining: 18, completion at: 73)
+    Order expected completion time: 75, Will be delayed: False
+  Line 6: Working on Order 16 (remaining: 19, completion at: 74)
+    Order expected completion time: 78, Will be delayed: False
+  Line 7: Available
+  Line 8: Available
+  Line 9: Working on Order 10 (remaining: 4, completion at: 59)
+    Order expected completion time: 60, Will be delayed: False
+
+Time step: 56
+Active orders: 9
+Completed orders: 10
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 17: progress 5/6 (remaining: 1, expected completion: 57)
+    Expected design duration: 7, Expected completion time: 81
+  Order 18: progress 2/6 (remaining: 4, expected completion: 60)
+    Expected design duration: 7, Expected completion time: 84
+
+Production Lines Status:
+  Line 0: Working on Order 11 (remaining: 3, completion at: 59)
+    Order expected completion time: 63, Will be delayed: False
+  Line 1: Available
+  Line 2: Working on Order 12 (remaining: 7, completion at: 63)
+    Order expected completion time: 66, Will be delayed: False
+  Line 3: Working on Order 14 (remaining: 14, completion at: 70)
+    Order expected completion time: 72, Will be delayed: False
+  Line 4: Working on Order 13 (remaining: 9, completion at: 65)
+    Order expected completion time: 69, Will be delayed: False
+  Line 5: Working on Order 15 (remaining: 17, completion at: 73)
+    Order expected completion time: 75, Will be delayed: False
+  Line 6: Working on Order 16 (remaining: 18, completion at: 74)
+    Order expected completion time: 78, Will be delayed: False
+  Line 7: Available
+  Line 8: Available
+  Line 9: Working on Order 10 (remaining: 3, completion at: 59)
+    Order expected completion time: 60, Will be delayed: False
+
+Time step: 57
+Active orders: 9
+Completed orders: 10
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 18: progress 3/6 (remaining: 3, expected completion: 60)
+    Expected design duration: 7, Expected completion time: 84
+
+Production Lines Status:
+  Line 0: Working on Order 11 (remaining: 2, completion at: 59)
+    Order expected completion time: 63, Will be delayed: False
+  Line 1: Available
+  Line 2: Working on Order 12 (remaining: 6, completion at: 63)
+    Order expected completion time: 66, Will be delayed: False
+  Line 3: Working on Order 14 (remaining: 13, completion at: 70)
+    Order expected completion time: 72, Will be delayed: False
+  Line 4: Working on Order 13 (remaining: 8, completion at: 65)
+    Order expected completion time: 69, Will be delayed: False
+  Line 5: Working on Order 15 (remaining: 16, completion at: 73)
+    Order expected completion time: 75, Will be delayed: False
+  Line 6: Working on Order 16 (remaining: 17, completion at: 74)
+    Order expected completion time: 78, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 17 (remaining: 20, completion at: 77)
+    Order expected completion time: 81, Will be delayed: False
+  Line 9: Working on Order 10 (remaining: 2, completion at: 59)
+    Order expected completion time: 60, Will be delayed: False
+
+Time step: 58
+Active orders: 10
+Completed orders: 10
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 18: progress 4/6 (remaining: 2, expected completion: 60)
+    Expected design duration: 7, Expected completion time: 84
+  Order 19: progress 1/7 (remaining: 6, expected completion: 64)
+    Expected design duration: 7, Expected completion time: 87
+
+Production Lines Status:
+  Line 0: Working on Order 11 (remaining: 1, completion at: 59)
+    Order expected completion time: 63, Will be delayed: False
+  Line 1: Available
+  Line 2: Working on Order 12 (remaining: 5, completion at: 63)
+    Order expected completion time: 66, Will be delayed: False
+  Line 3: Working on Order 14 (remaining: 12, completion at: 70)
+    Order expected completion time: 72, Will be delayed: False
+  Line 4: Working on Order 13 (remaining: 7, completion at: 65)
+    Order expected completion time: 69, Will be delayed: False
+  Line 5: Working on Order 15 (remaining: 15, completion at: 73)
+    Order expected completion time: 75, Will be delayed: False
+  Line 6: Working on Order 16 (remaining: 16, completion at: 74)
+    Order expected completion time: 78, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 17 (remaining: 19, completion at: 77)
+    Order expected completion time: 81, Will be delayed: False
+  Line 9: Working on Order 10 (remaining: 1, completion at: 59)
+    Order expected completion time: 60, Will be delayed: False
+
+Time step: 59
+Active orders: 10
+Completed orders: 10
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 18: progress 5/6 (remaining: 1, expected completion: 60)
+    Expected design duration: 7, Expected completion time: 84
+  Order 19: progress 2/7 (remaining: 5, expected completion: 64)
+    Expected design duration: 7, Expected completion time: 87
+
+Production Lines Status:
+  Line 0: Working on Order 11 (remaining: 0, completion at: 59)
+    Order expected completion time: 63, Will be delayed: False
+  Line 1: Available
+  Line 2: Working on Order 12 (remaining: 4, completion at: 63)
+    Order expected completion time: 66, Will be delayed: False
+  Line 3: Working on Order 14 (remaining: 11, completion at: 70)
+    Order expected completion time: 72, Will be delayed: False
+  Line 4: Working on Order 13 (remaining: 6, completion at: 65)
+    Order expected completion time: 69, Will be delayed: False
+  Line 5: Working on Order 15 (remaining: 14, completion at: 73)
+    Order expected completion time: 75, Will be delayed: False
+  Line 6: Working on Order 16 (remaining: 15, completion at: 74)
+    Order expected completion time: 78, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 17 (remaining: 18, completion at: 77)
+    Order expected completion time: 81, Will be delayed: False
+  Line 9: Working on Order 10 (remaining: 0, completion at: 59)
+    Order expected completion time: 60, Will be delayed: False
+
+Time step: 60
+Active orders: 8
+Completed orders: 12
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 19: progress 3/7 (remaining: 4, expected completion: 64)
+    Expected design duration: 7, Expected completion time: 87
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 18 (remaining: 22, completion at: 82)
+    Order expected completion time: 84, Will be delayed: False
+  Line 2: Working on Order 12 (remaining: 3, completion at: 63)
+    Order expected completion time: 66, Will be delayed: False
+  Line 3: Working on Order 14 (remaining: 10, completion at: 70)
+    Order expected completion time: 72, Will be delayed: False
+  Line 4: Working on Order 13 (remaining: 5, completion at: 65)
+    Order expected completion time: 69, Will be delayed: False
+  Line 5: Working on Order 15 (remaining: 13, completion at: 73)
+    Order expected completion time: 75, Will be delayed: False
+  Line 6: Working on Order 16 (remaining: 14, completion at: 74)
+    Order expected completion time: 78, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 17 (remaining: 17, completion at: 77)
+    Order expected completion time: 81, Will be delayed: False
+  Line 9: Available
+
+Time step: 61
+Active orders: 9
+Completed orders: 12
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 19: progress 4/7 (remaining: 3, expected completion: 64)
+    Expected design duration: 7, Expected completion time: 87
+  Order 20: progress 1/7 (remaining: 6, expected completion: 67)
+    Expected design duration: 7, Expected completion time: 90
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 18 (remaining: 21, completion at: 82)
+    Order expected completion time: 84, Will be delayed: False
+  Line 2: Working on Order 12 (remaining: 2, completion at: 63)
+    Order expected completion time: 66, Will be delayed: False
+  Line 3: Working on Order 14 (remaining: 9, completion at: 70)
+    Order expected completion time: 72, Will be delayed: False
+  Line 4: Working on Order 13 (remaining: 4, completion at: 65)
+    Order expected completion time: 69, Will be delayed: False
+  Line 5: Working on Order 15 (remaining: 12, completion at: 73)
+    Order expected completion time: 75, Will be delayed: False
+  Line 6: Working on Order 16 (remaining: 13, completion at: 74)
+    Order expected completion time: 78, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 17 (remaining: 16, completion at: 77)
+    Order expected completion time: 81, Will be delayed: False
+  Line 9: Available
+
+Time step: 62
+Active orders: 9
+Completed orders: 12
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 19: progress 5/7 (remaining: 2, expected completion: 64)
+    Expected design duration: 7, Expected completion time: 87
+  Order 20: progress 2/7 (remaining: 5, expected completion: 67)
+    Expected design duration: 7, Expected completion time: 90
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 18 (remaining: 20, completion at: 82)
+    Order expected completion time: 84, Will be delayed: False
+  Line 2: Working on Order 12 (remaining: 1, completion at: 63)
+    Order expected completion time: 66, Will be delayed: False
+  Line 3: Working on Order 14 (remaining: 8, completion at: 70)
+    Order expected completion time: 72, Will be delayed: False
+  Line 4: Working on Order 13 (remaining: 3, completion at: 65)
+    Order expected completion time: 69, Will be delayed: False
+  Line 5: Working on Order 15 (remaining: 11, completion at: 73)
+    Order expected completion time: 75, Will be delayed: False
+  Line 6: Working on Order 16 (remaining: 12, completion at: 74)
+    Order expected completion time: 78, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 17 (remaining: 15, completion at: 77)
+    Order expected completion time: 81, Will be delayed: False
+  Line 9: Available
+
+Time step: 63
+Active orders: 9
+Completed orders: 12
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 19: progress 6/7 (remaining: 1, expected completion: 64)
+    Expected design duration: 7, Expected completion time: 87
+  Order 20: progress 3/7 (remaining: 4, expected completion: 67)
+    Expected design duration: 7, Expected completion time: 90
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 18 (remaining: 19, completion at: 82)
+    Order expected completion time: 84, Will be delayed: False
+  Line 2: Working on Order 12 (remaining: 0, completion at: 63)
+    Order expected completion time: 66, Will be delayed: False
+  Line 3: Working on Order 14 (remaining: 7, completion at: 70)
+    Order expected completion time: 72, Will be delayed: False
+  Line 4: Working on Order 13 (remaining: 2, completion at: 65)
+    Order expected completion time: 69, Will be delayed: False
+  Line 5: Working on Order 15 (remaining: 10, completion at: 73)
+    Order expected completion time: 75, Will be delayed: False
+  Line 6: Working on Order 16 (remaining: 11, completion at: 74)
+    Order expected completion time: 78, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 17 (remaining: 14, completion at: 77)
+    Order expected completion time: 81, Will be delayed: False
+  Line 9: Available
+
+Time step: 64
+Active orders: 9
+Completed orders: 13
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 20: progress 4/7 (remaining: 3, expected completion: 67)
+    Expected design duration: 7, Expected completion time: 90
+  Order 21: progress 1/6 (remaining: 5, expected completion: 69)
+    Expected design duration: 7, Expected completion time: 93
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 18 (remaining: 18, completion at: 82)
+    Order expected completion time: 84, Will be delayed: False
+  Line 2: Available
+  Line 3: Working on Order 14 (remaining: 6, completion at: 70)
+    Order expected completion time: 72, Will be delayed: False
+  Line 4: Working on Order 13 (remaining: 1, completion at: 65)
+    Order expected completion time: 69, Will be delayed: False
+  Line 5: Working on Order 15 (remaining: 9, completion at: 73)
+    Order expected completion time: 75, Will be delayed: False
+  Line 6: Working on Order 16 (remaining: 10, completion at: 74)
+    Order expected completion time: 78, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 17 (remaining: 13, completion at: 77)
+    Order expected completion time: 81, Will be delayed: False
+  Line 9: Working on Order 19 (remaining: 20, completion at: 84)
+    Order expected completion time: 87, Will be delayed: False
+
+Time step: 65
+Active orders: 9
+Completed orders: 13
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 20: progress 5/7 (remaining: 2, expected completion: 67)
+    Expected design duration: 7, Expected completion time: 90
+  Order 21: progress 2/6 (remaining: 4, expected completion: 69)
+    Expected design duration: 7, Expected completion time: 93
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 18 (remaining: 17, completion at: 82)
+    Order expected completion time: 84, Will be delayed: False
+  Line 2: Available
+  Line 3: Working on Order 14 (remaining: 5, completion at: 70)
+    Order expected completion time: 72, Will be delayed: False
+  Line 4: Working on Order 13 (remaining: 0, completion at: 65)
+    Order expected completion time: 69, Will be delayed: False
+  Line 5: Working on Order 15 (remaining: 8, completion at: 73)
+    Order expected completion time: 75, Will be delayed: False
+  Line 6: Working on Order 16 (remaining: 9, completion at: 74)
+    Order expected completion time: 78, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 17 (remaining: 12, completion at: 77)
+    Order expected completion time: 81, Will be delayed: False
+  Line 9: Working on Order 19 (remaining: 19, completion at: 84)
+    Order expected completion time: 87, Will be delayed: False
+
+Time step: 66
+Active orders: 8
+Completed orders: 14
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 20: progress 6/7 (remaining: 1, expected completion: 67)
+    Expected design duration: 7, Expected completion time: 90
+  Order 21: progress 3/6 (remaining: 3, expected completion: 69)
+    Expected design duration: 7, Expected completion time: 93
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 18 (remaining: 16, completion at: 82)
+    Order expected completion time: 84, Will be delayed: False
+  Line 2: Available
+  Line 3: Working on Order 14 (remaining: 4, completion at: 70)
+    Order expected completion time: 72, Will be delayed: False
+  Line 4: Available
+  Line 5: Working on Order 15 (remaining: 7, completion at: 73)
+    Order expected completion time: 75, Will be delayed: False
+  Line 6: Working on Order 16 (remaining: 8, completion at: 74)
+    Order expected completion time: 78, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 17 (remaining: 11, completion at: 77)
+    Order expected completion time: 81, Will be delayed: False
+  Line 9: Working on Order 19 (remaining: 18, completion at: 84)
+    Order expected completion time: 87, Will be delayed: False
+
+Time step: 67
+Active orders: 9
+Completed orders: 14
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 21: progress 4/6 (remaining: 2, expected completion: 69)
+    Expected design duration: 7, Expected completion time: 93
+  Order 22: progress 1/6 (remaining: 5, expected completion: 72)
+    Expected design duration: 7, Expected completion time: 96
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 18 (remaining: 15, completion at: 82)
+    Order expected completion time: 84, Will be delayed: False
+  Line 2: Available
+  Line 3: Working on Order 14 (remaining: 3, completion at: 70)
+    Order expected completion time: 72, Will be delayed: False
+  Line 4: Working on Order 20 (remaining: 23, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Working on Order 15 (remaining: 6, completion at: 73)
+    Order expected completion time: 75, Will be delayed: False
+  Line 6: Working on Order 16 (remaining: 7, completion at: 74)
+    Order expected completion time: 78, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 17 (remaining: 10, completion at: 77)
+    Order expected completion time: 81, Will be delayed: False
+  Line 9: Working on Order 19 (remaining: 17, completion at: 84)
+    Order expected completion time: 87, Will be delayed: False
+
+Time step: 68
+Active orders: 9
+Completed orders: 14
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 21: progress 5/6 (remaining: 1, expected completion: 69)
+    Expected design duration: 7, Expected completion time: 93
+  Order 22: progress 2/6 (remaining: 4, expected completion: 72)
+    Expected design duration: 7, Expected completion time: 96
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 18 (remaining: 14, completion at: 82)
+    Order expected completion time: 84, Will be delayed: False
+  Line 2: Available
+  Line 3: Working on Order 14 (remaining: 2, completion at: 70)
+    Order expected completion time: 72, Will be delayed: False
+  Line 4: Working on Order 20 (remaining: 22, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Working on Order 15 (remaining: 5, completion at: 73)
+    Order expected completion time: 75, Will be delayed: False
+  Line 6: Working on Order 16 (remaining: 6, completion at: 74)
+    Order expected completion time: 78, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 17 (remaining: 9, completion at: 77)
+    Order expected completion time: 81, Will be delayed: False
+  Line 9: Working on Order 19 (remaining: 16, completion at: 84)
+    Order expected completion time: 87, Will be delayed: False
+
+Time step: 69
+Active orders: 9
+Completed orders: 14
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 22: progress 3/6 (remaining: 3, expected completion: 72)
+    Expected design duration: 7, Expected completion time: 96
+
+Production Lines Status:
+  Line 0: Working on Order 21 (remaining: 20, completion at: 89)
+    Order expected completion time: 93, Will be delayed: False
+  Line 1: Working on Order 18 (remaining: 13, completion at: 82)
+    Order expected completion time: 84, Will be delayed: False
+  Line 2: Available
+  Line 3: Working on Order 14 (remaining: 1, completion at: 70)
+    Order expected completion time: 72, Will be delayed: False
+  Line 4: Working on Order 20 (remaining: 21, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Working on Order 15 (remaining: 4, completion at: 73)
+    Order expected completion time: 75, Will be delayed: False
+  Line 6: Working on Order 16 (remaining: 5, completion at: 74)
+    Order expected completion time: 78, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 17 (remaining: 8, completion at: 77)
+    Order expected completion time: 81, Will be delayed: False
+  Line 9: Working on Order 19 (remaining: 15, completion at: 84)
+    Order expected completion time: 87, Will be delayed: False
+
+Time step: 70
+Active orders: 10
+Completed orders: 14
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 22: progress 4/6 (remaining: 2, expected completion: 72)
+    Expected design duration: 7, Expected completion time: 96
+  Order 23: progress 1/7 (remaining: 6, expected completion: 76)
+    Expected design duration: 7, Expected completion time: 99
+
+Production Lines Status:
+  Line 0: Working on Order 21 (remaining: 19, completion at: 89)
+    Order expected completion time: 93, Will be delayed: False
+  Line 1: Working on Order 18 (remaining: 12, completion at: 82)
+    Order expected completion time: 84, Will be delayed: False
+  Line 2: Available
+  Line 3: Working on Order 14 (remaining: 0, completion at: 70)
+    Order expected completion time: 72, Will be delayed: False
+  Line 4: Working on Order 20 (remaining: 20, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Working on Order 15 (remaining: 3, completion at: 73)
+    Order expected completion time: 75, Will be delayed: False
+  Line 6: Working on Order 16 (remaining: 4, completion at: 74)
+    Order expected completion time: 78, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 17 (remaining: 7, completion at: 77)
+    Order expected completion time: 81, Will be delayed: False
+  Line 9: Working on Order 19 (remaining: 14, completion at: 84)
+    Order expected completion time: 87, Will be delayed: False
+
+Time step: 71
+Active orders: 9
+Completed orders: 15
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 22: progress 5/6 (remaining: 1, expected completion: 72)
+    Expected design duration: 7, Expected completion time: 96
+  Order 23: progress 2/7 (remaining: 5, expected completion: 76)
+    Expected design duration: 7, Expected completion time: 99
+
+Production Lines Status:
+  Line 0: Working on Order 21 (remaining: 18, completion at: 89)
+    Order expected completion time: 93, Will be delayed: False
+  Line 1: Working on Order 18 (remaining: 11, completion at: 82)
+    Order expected completion time: 84, Will be delayed: False
+  Line 2: Available
+  Line 3: Available
+  Line 4: Working on Order 20 (remaining: 19, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Working on Order 15 (remaining: 2, completion at: 73)
+    Order expected completion time: 75, Will be delayed: False
+  Line 6: Working on Order 16 (remaining: 3, completion at: 74)
+    Order expected completion time: 78, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 17 (remaining: 6, completion at: 77)
+    Order expected completion time: 81, Will be delayed: False
+  Line 9: Working on Order 19 (remaining: 13, completion at: 84)
+    Order expected completion time: 87, Will be delayed: False
+
+Time step: 72
+Active orders: 9
+Completed orders: 15
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 23: progress 3/7 (remaining: 4, expected completion: 76)
+    Expected design duration: 7, Expected completion time: 99
+
+Production Lines Status:
+  Line 0: Working on Order 21 (remaining: 17, completion at: 89)
+    Order expected completion time: 93, Will be delayed: False
+  Line 1: Working on Order 18 (remaining: 10, completion at: 82)
+    Order expected completion time: 84, Will be delayed: False
+  Line 2: Available
+  Line 3: Available
+  Line 4: Working on Order 20 (remaining: 18, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Working on Order 15 (remaining: 1, completion at: 73)
+    Order expected completion time: 75, Will be delayed: False
+  Line 6: Working on Order 16 (remaining: 2, completion at: 74)
+    Order expected completion time: 78, Will be delayed: False
+  Line 7: Working on Order 22 (remaining: 22, completion at: 94)
+    Order expected completion time: 96, Will be delayed: False
+  Line 8: Working on Order 17 (remaining: 5, completion at: 77)
+    Order expected completion time: 81, Will be delayed: False
+  Line 9: Working on Order 19 (remaining: 12, completion at: 84)
+    Order expected completion time: 87, Will be delayed: False
+
+Time step: 73
+Active orders: 10
+Completed orders: 15
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 23: progress 4/7 (remaining: 3, expected completion: 76)
+    Expected design duration: 7, Expected completion time: 99
+  Order 24: progress 1/7 (remaining: 6, expected completion: 79)
+    Expected design duration: 7, Expected completion time: 102
+
+Production Lines Status:
+  Line 0: Working on Order 21 (remaining: 16, completion at: 89)
+    Order expected completion time: 93, Will be delayed: False
+  Line 1: Working on Order 18 (remaining: 9, completion at: 82)
+    Order expected completion time: 84, Will be delayed: False
+  Line 2: Available
+  Line 3: Available
+  Line 4: Working on Order 20 (remaining: 17, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Working on Order 15 (remaining: 0, completion at: 73)
+    Order expected completion time: 75, Will be delayed: False
+  Line 6: Working on Order 16 (remaining: 1, completion at: 74)
+    Order expected completion time: 78, Will be delayed: False
+  Line 7: Working on Order 22 (remaining: 21, completion at: 94)
+    Order expected completion time: 96, Will be delayed: False
+  Line 8: Working on Order 17 (remaining: 4, completion at: 77)
+    Order expected completion time: 81, Will be delayed: False
+  Line 9: Working on Order 19 (remaining: 11, completion at: 84)
+    Order expected completion time: 87, Will be delayed: False
+
+Time step: 74
+Active orders: 9
+Completed orders: 16
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 23: progress 5/7 (remaining: 2, expected completion: 76)
+    Expected design duration: 7, Expected completion time: 99
+  Order 24: progress 2/7 (remaining: 5, expected completion: 79)
+    Expected design duration: 7, Expected completion time: 102
+
+Production Lines Status:
+  Line 0: Working on Order 21 (remaining: 15, completion at: 89)
+    Order expected completion time: 93, Will be delayed: False
+  Line 1: Working on Order 18 (remaining: 8, completion at: 82)
+    Order expected completion time: 84, Will be delayed: False
+  Line 2: Available
+  Line 3: Available
+  Line 4: Working on Order 20 (remaining: 16, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Available
+  Line 6: Working on Order 16 (remaining: 0, completion at: 74)
+    Order expected completion time: 78, Will be delayed: False
+  Line 7: Working on Order 22 (remaining: 20, completion at: 94)
+    Order expected completion time: 96, Will be delayed: False
+  Line 8: Working on Order 17 (remaining: 3, completion at: 77)
+    Order expected completion time: 81, Will be delayed: False
+  Line 9: Working on Order 19 (remaining: 10, completion at: 84)
+    Order expected completion time: 87, Will be delayed: False
+
+Time step: 75
+Active orders: 8
+Completed orders: 17
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 23: progress 6/7 (remaining: 1, expected completion: 76)
+    Expected design duration: 7, Expected completion time: 99
+  Order 24: progress 3/7 (remaining: 4, expected completion: 79)
+    Expected design duration: 7, Expected completion time: 102
+
+Production Lines Status:
+  Line 0: Working on Order 21 (remaining: 14, completion at: 89)
+    Order expected completion time: 93, Will be delayed: False
+  Line 1: Working on Order 18 (remaining: 7, completion at: 82)
+    Order expected completion time: 84, Will be delayed: False
+  Line 2: Available
+  Line 3: Available
+  Line 4: Working on Order 20 (remaining: 15, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Available
+  Line 6: Available
+  Line 7: Working on Order 22 (remaining: 19, completion at: 94)
+    Order expected completion time: 96, Will be delayed: False
+  Line 8: Working on Order 17 (remaining: 2, completion at: 77)
+    Order expected completion time: 81, Will be delayed: False
+  Line 9: Working on Order 19 (remaining: 9, completion at: 84)
+    Order expected completion time: 87, Will be delayed: False
+
+Time step: 76
+Active orders: 9
+Completed orders: 17
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 24: progress 4/7 (remaining: 3, expected completion: 79)
+    Expected design duration: 7, Expected completion time: 102
+  Order 25: progress 1/6 (remaining: 5, expected completion: 81)
+    Expected design duration: 7, Expected completion time: 105
+
+Production Lines Status:
+  Line 0: Working on Order 21 (remaining: 13, completion at: 89)
+    Order expected completion time: 93, Will be delayed: False
+  Line 1: Working on Order 18 (remaining: 6, completion at: 82)
+    Order expected completion time: 84, Will be delayed: False
+  Line 2: Working on Order 23 (remaining: 21, completion at: 97)
+    Order expected completion time: 99, Will be delayed: False
+  Line 3: Available
+  Line 4: Working on Order 20 (remaining: 14, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Available
+  Line 6: Available
+  Line 7: Working on Order 22 (remaining: 18, completion at: 94)
+    Order expected completion time: 96, Will be delayed: False
+  Line 8: Working on Order 17 (remaining: 1, completion at: 77)
+    Order expected completion time: 81, Will be delayed: False
+  Line 9: Working on Order 19 (remaining: 8, completion at: 84)
+    Order expected completion time: 87, Will be delayed: False
+
+Time step: 77
+Active orders: 9
+Completed orders: 17
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 24: progress 5/7 (remaining: 2, expected completion: 79)
+    Expected design duration: 7, Expected completion time: 102
+  Order 25: progress 2/6 (remaining: 4, expected completion: 81)
+    Expected design duration: 7, Expected completion time: 105
+
+Production Lines Status:
+  Line 0: Working on Order 21 (remaining: 12, completion at: 89)
+    Order expected completion time: 93, Will be delayed: False
+  Line 1: Working on Order 18 (remaining: 5, completion at: 82)
+    Order expected completion time: 84, Will be delayed: False
+  Line 2: Working on Order 23 (remaining: 20, completion at: 97)
+    Order expected completion time: 99, Will be delayed: False
+  Line 3: Available
+  Line 4: Working on Order 20 (remaining: 13, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Available
+  Line 6: Available
+  Line 7: Working on Order 22 (remaining: 17, completion at: 94)
+    Order expected completion time: 96, Will be delayed: False
+  Line 8: Working on Order 17 (remaining: 0, completion at: 77)
+    Order expected completion time: 81, Will be delayed: False
+  Line 9: Working on Order 19 (remaining: 7, completion at: 84)
+    Order expected completion time: 87, Will be delayed: False
+
+Time step: 78
+Active orders: 8
+Completed orders: 18
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 24: progress 6/7 (remaining: 1, expected completion: 79)
+    Expected design duration: 7, Expected completion time: 102
+  Order 25: progress 3/6 (remaining: 3, expected completion: 81)
+    Expected design duration: 7, Expected completion time: 105
+
+Production Lines Status:
+  Line 0: Working on Order 21 (remaining: 11, completion at: 89)
+    Order expected completion time: 93, Will be delayed: False
+  Line 1: Working on Order 18 (remaining: 4, completion at: 82)
+    Order expected completion time: 84, Will be delayed: False
+  Line 2: Working on Order 23 (remaining: 19, completion at: 97)
+    Order expected completion time: 99, Will be delayed: False
+  Line 3: Available
+  Line 4: Working on Order 20 (remaining: 12, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Available
+  Line 6: Available
+  Line 7: Working on Order 22 (remaining: 16, completion at: 94)
+    Order expected completion time: 96, Will be delayed: False
+  Line 8: Available
+  Line 9: Working on Order 19 (remaining: 6, completion at: 84)
+    Order expected completion time: 87, Will be delayed: False
+
+Time step: 79
+Active orders: 9
+Completed orders: 18
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 25: progress 4/6 (remaining: 2, expected completion: 81)
+    Expected design duration: 7, Expected completion time: 105
+  Order 26: progress 1/6 (remaining: 5, expected completion: 84)
+    Expected design duration: 7, Expected completion time: 108
+
+Production Lines Status:
+  Line 0: Working on Order 21 (remaining: 10, completion at: 89)
+    Order expected completion time: 93, Will be delayed: False
+  Line 1: Working on Order 18 (remaining: 3, completion at: 82)
+    Order expected completion time: 84, Will be delayed: False
+  Line 2: Working on Order 23 (remaining: 18, completion at: 97)
+    Order expected completion time: 99, Will be delayed: False
+  Line 3: Available
+  Line 4: Working on Order 20 (remaining: 11, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Available
+  Line 6: Available
+  Line 7: Working on Order 22 (remaining: 15, completion at: 94)
+    Order expected completion time: 96, Will be delayed: False
+  Line 8: Working on Order 24 (remaining: 23, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Working on Order 19 (remaining: 5, completion at: 84)
+    Order expected completion time: 87, Will be delayed: False
+
+Time step: 80
+Active orders: 9
+Completed orders: 18
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 25: progress 5/6 (remaining: 1, expected completion: 81)
+    Expected design duration: 7, Expected completion time: 105
+  Order 26: progress 2/6 (remaining: 4, expected completion: 84)
+    Expected design duration: 7, Expected completion time: 108
+
+Production Lines Status:
+  Line 0: Working on Order 21 (remaining: 9, completion at: 89)
+    Order expected completion time: 93, Will be delayed: False
+  Line 1: Working on Order 18 (remaining: 2, completion at: 82)
+    Order expected completion time: 84, Will be delayed: False
+  Line 2: Working on Order 23 (remaining: 17, completion at: 97)
+    Order expected completion time: 99, Will be delayed: False
+  Line 3: Available
+  Line 4: Working on Order 20 (remaining: 10, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Available
+  Line 6: Available
+  Line 7: Working on Order 22 (remaining: 14, completion at: 94)
+    Order expected completion time: 96, Will be delayed: False
+  Line 8: Working on Order 24 (remaining: 22, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Working on Order 19 (remaining: 4, completion at: 84)
+    Order expected completion time: 87, Will be delayed: False
+
+Time step: 81
+Active orders: 9
+Completed orders: 18
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 26: progress 3/6 (remaining: 3, expected completion: 84)
+    Expected design duration: 7, Expected completion time: 108
+
+Production Lines Status:
+  Line 0: Working on Order 21 (remaining: 8, completion at: 89)
+    Order expected completion time: 93, Will be delayed: False
+  Line 1: Working on Order 18 (remaining: 1, completion at: 82)
+    Order expected completion time: 84, Will be delayed: False
+  Line 2: Working on Order 23 (remaining: 16, completion at: 97)
+    Order expected completion time: 99, Will be delayed: False
+  Line 3: Available
+  Line 4: Working on Order 20 (remaining: 9, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Available
+  Line 6: Working on Order 25 (remaining: 21, completion at: 102)
+    Order expected completion time: 105, Will be delayed: False
+  Line 7: Working on Order 22 (remaining: 13, completion at: 94)
+    Order expected completion time: 96, Will be delayed: False
+  Line 8: Working on Order 24 (remaining: 21, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Working on Order 19 (remaining: 3, completion at: 84)
+    Order expected completion time: 87, Will be delayed: False
+
+Time step: 82
+Active orders: 10
+Completed orders: 18
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 26: progress 4/6 (remaining: 2, expected completion: 84)
+    Expected design duration: 7, Expected completion time: 108
+  Order 27: progress 1/6 (remaining: 5, expected completion: 87)
+    Expected design duration: 7, Expected completion time: 111
+
+Production Lines Status:
+  Line 0: Working on Order 21 (remaining: 7, completion at: 89)
+    Order expected completion time: 93, Will be delayed: False
+  Line 1: Working on Order 18 (remaining: 0, completion at: 82)
+    Order expected completion time: 84, Will be delayed: False
+  Line 2: Working on Order 23 (remaining: 15, completion at: 97)
+    Order expected completion time: 99, Will be delayed: False
+  Line 3: Available
+  Line 4: Working on Order 20 (remaining: 8, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Available
+  Line 6: Working on Order 25 (remaining: 20, completion at: 102)
+    Order expected completion time: 105, Will be delayed: False
+  Line 7: Working on Order 22 (remaining: 12, completion at: 94)
+    Order expected completion time: 96, Will be delayed: False
+  Line 8: Working on Order 24 (remaining: 20, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Working on Order 19 (remaining: 2, completion at: 84)
+    Order expected completion time: 87, Will be delayed: False
+
+Time step: 83
+Active orders: 9
+Completed orders: 19
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 26: progress 5/6 (remaining: 1, expected completion: 84)
+    Expected design duration: 7, Expected completion time: 108
+  Order 27: progress 2/6 (remaining: 4, expected completion: 87)
+    Expected design duration: 7, Expected completion time: 111
+
+Production Lines Status:
+  Line 0: Working on Order 21 (remaining: 6, completion at: 89)
+    Order expected completion time: 93, Will be delayed: False
+  Line 1: Available
+  Line 2: Working on Order 23 (remaining: 14, completion at: 97)
+    Order expected completion time: 99, Will be delayed: False
+  Line 3: Available
+  Line 4: Working on Order 20 (remaining: 7, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Available
+  Line 6: Working on Order 25 (remaining: 19, completion at: 102)
+    Order expected completion time: 105, Will be delayed: False
+  Line 7: Working on Order 22 (remaining: 11, completion at: 94)
+    Order expected completion time: 96, Will be delayed: False
+  Line 8: Working on Order 24 (remaining: 19, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Working on Order 19 (remaining: 1, completion at: 84)
+    Order expected completion time: 87, Will be delayed: False
+
+Time step: 84
+Active orders: 9
+Completed orders: 19
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 27: progress 3/6 (remaining: 3, expected completion: 87)
+    Expected design duration: 7, Expected completion time: 111
+
+Production Lines Status:
+  Line 0: Working on Order 21 (remaining: 5, completion at: 89)
+    Order expected completion time: 93, Will be delayed: False
+  Line 1: Working on Order 26 (remaining: 23, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Working on Order 23 (remaining: 13, completion at: 97)
+    Order expected completion time: 99, Will be delayed: False
+  Line 3: Available
+  Line 4: Working on Order 20 (remaining: 6, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Available
+  Line 6: Working on Order 25 (remaining: 18, completion at: 102)
+    Order expected completion time: 105, Will be delayed: False
+  Line 7: Working on Order 22 (remaining: 10, completion at: 94)
+    Order expected completion time: 96, Will be delayed: False
+  Line 8: Working on Order 24 (remaining: 18, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Working on Order 19 (remaining: 0, completion at: 84)
+    Order expected completion time: 87, Will be delayed: False
+
+Time step: 85
+Active orders: 9
+Completed orders: 20
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 27: progress 4/6 (remaining: 2, expected completion: 87)
+    Expected design duration: 7, Expected completion time: 111
+  Order 28: progress 1/6 (remaining: 5, expected completion: 90)
+    Expected design duration: 7, Expected completion time: 114
+
+Production Lines Status:
+  Line 0: Working on Order 21 (remaining: 4, completion at: 89)
+    Order expected completion time: 93, Will be delayed: False
+  Line 1: Working on Order 26 (remaining: 22, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Working on Order 23 (remaining: 12, completion at: 97)
+    Order expected completion time: 99, Will be delayed: False
+  Line 3: Available
+  Line 4: Working on Order 20 (remaining: 5, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Available
+  Line 6: Working on Order 25 (remaining: 17, completion at: 102)
+    Order expected completion time: 105, Will be delayed: False
+  Line 7: Working on Order 22 (remaining: 9, completion at: 94)
+    Order expected completion time: 96, Will be delayed: False
+  Line 8: Working on Order 24 (remaining: 17, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Available
+
+Time step: 86
+Active orders: 9
+Completed orders: 20
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 27: progress 5/6 (remaining: 1, expected completion: 87)
+    Expected design duration: 7, Expected completion time: 111
+  Order 28: progress 2/6 (remaining: 4, expected completion: 90)
+    Expected design duration: 7, Expected completion time: 114
+
+Production Lines Status:
+  Line 0: Working on Order 21 (remaining: 3, completion at: 89)
+    Order expected completion time: 93, Will be delayed: False
+  Line 1: Working on Order 26 (remaining: 21, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Working on Order 23 (remaining: 11, completion at: 97)
+    Order expected completion time: 99, Will be delayed: False
+  Line 3: Available
+  Line 4: Working on Order 20 (remaining: 4, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Available
+  Line 6: Working on Order 25 (remaining: 16, completion at: 102)
+    Order expected completion time: 105, Will be delayed: False
+  Line 7: Working on Order 22 (remaining: 8, completion at: 94)
+    Order expected completion time: 96, Will be delayed: False
+  Line 8: Working on Order 24 (remaining: 16, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Available
+
+Time step: 87
+Active orders: 9
+Completed orders: 20
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 28: progress 3/6 (remaining: 3, expected completion: 90)
+    Expected design duration: 7, Expected completion time: 114
+
+Production Lines Status:
+  Line 0: Working on Order 21 (remaining: 2, completion at: 89)
+    Order expected completion time: 93, Will be delayed: False
+  Line 1: Working on Order 26 (remaining: 20, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Working on Order 23 (remaining: 10, completion at: 97)
+    Order expected completion time: 99, Will be delayed: False
+  Line 3: Available
+  Line 4: Working on Order 20 (remaining: 3, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Available
+  Line 6: Working on Order 25 (remaining: 15, completion at: 102)
+    Order expected completion time: 105, Will be delayed: False
+  Line 7: Working on Order 22 (remaining: 7, completion at: 94)
+    Order expected completion time: 96, Will be delayed: False
+  Line 8: Working on Order 24 (remaining: 15, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Working on Order 27 (remaining: 20, completion at: 107)
+    Order expected completion time: 111, Will be delayed: False
+
+Time step: 88
+Active orders: 10
+Completed orders: 20
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 28: progress 4/6 (remaining: 2, expected completion: 90)
+    Expected design duration: 7, Expected completion time: 114
+  Order 29: progress 1/6 (remaining: 5, expected completion: 93)
+    Expected design duration: 7, Expected completion time: 117
+
+Production Lines Status:
+  Line 0: Working on Order 21 (remaining: 1, completion at: 89)
+    Order expected completion time: 93, Will be delayed: False
+  Line 1: Working on Order 26 (remaining: 19, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Working on Order 23 (remaining: 9, completion at: 97)
+    Order expected completion time: 99, Will be delayed: False
+  Line 3: Available
+  Line 4: Working on Order 20 (remaining: 2, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Available
+  Line 6: Working on Order 25 (remaining: 14, completion at: 102)
+    Order expected completion time: 105, Will be delayed: False
+  Line 7: Working on Order 22 (remaining: 6, completion at: 94)
+    Order expected completion time: 96, Will be delayed: False
+  Line 8: Working on Order 24 (remaining: 14, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Working on Order 27 (remaining: 19, completion at: 107)
+    Order expected completion time: 111, Will be delayed: False
+
+Time step: 89
+Active orders: 10
+Completed orders: 20
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 28: progress 5/6 (remaining: 1, expected completion: 90)
+    Expected design duration: 7, Expected completion time: 114
+  Order 29: progress 2/6 (remaining: 4, expected completion: 93)
+    Expected design duration: 7, Expected completion time: 117
+
+Production Lines Status:
+  Line 0: Working on Order 21 (remaining: 0, completion at: 89)
+    Order expected completion time: 93, Will be delayed: False
+  Line 1: Working on Order 26 (remaining: 18, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Working on Order 23 (remaining: 8, completion at: 97)
+    Order expected completion time: 99, Will be delayed: False
+  Line 3: Available
+  Line 4: Working on Order 20 (remaining: 1, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Available
+  Line 6: Working on Order 25 (remaining: 13, completion at: 102)
+    Order expected completion time: 105, Will be delayed: False
+  Line 7: Working on Order 22 (remaining: 5, completion at: 94)
+    Order expected completion time: 96, Will be delayed: False
+  Line 8: Working on Order 24 (remaining: 13, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Working on Order 27 (remaining: 18, completion at: 107)
+    Order expected completion time: 111, Will be delayed: False
+
+Time step: 90
+Active orders: 9
+Completed orders: 21
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 29: progress 3/6 (remaining: 3, expected completion: 93)
+    Expected design duration: 7, Expected completion time: 117
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 26 (remaining: 17, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Working on Order 23 (remaining: 7, completion at: 97)
+    Order expected completion time: 99, Will be delayed: False
+  Line 3: Available
+  Line 4: Working on Order 20 (remaining: 0, completion at: 90)
+    Order expected completion time: 90, Will be delayed: False
+  Line 5: Working on Order 28 (remaining: 20, completion at: 110)
+    Order expected completion time: 114, Will be delayed: False
+  Line 6: Working on Order 25 (remaining: 12, completion at: 102)
+    Order expected completion time: 105, Will be delayed: False
+  Line 7: Working on Order 22 (remaining: 4, completion at: 94)
+    Order expected completion time: 96, Will be delayed: False
+  Line 8: Working on Order 24 (remaining: 12, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Working on Order 27 (remaining: 17, completion at: 107)
+    Order expected completion time: 111, Will be delayed: False
+
+Time step: 91
+Active orders: 9
+Completed orders: 22
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 29: progress 4/6 (remaining: 2, expected completion: 93)
+    Expected design duration: 7, Expected completion time: 117
+  Order 30: progress 1/6 (remaining: 5, expected completion: 96)
+    Expected design duration: 7, Expected completion time: 120
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 26 (remaining: 16, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Working on Order 23 (remaining: 6, completion at: 97)
+    Order expected completion time: 99, Will be delayed: False
+  Line 3: Available
+  Line 4: Available
+  Line 5: Working on Order 28 (remaining: 19, completion at: 110)
+    Order expected completion time: 114, Will be delayed: False
+  Line 6: Working on Order 25 (remaining: 11, completion at: 102)
+    Order expected completion time: 105, Will be delayed: False
+  Line 7: Working on Order 22 (remaining: 3, completion at: 94)
+    Order expected completion time: 96, Will be delayed: False
+  Line 8: Working on Order 24 (remaining: 11, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Working on Order 27 (remaining: 16, completion at: 107)
+    Order expected completion time: 111, Will be delayed: False
+
+Time step: 92
+Active orders: 9
+Completed orders: 22
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 29: progress 5/6 (remaining: 1, expected completion: 93)
+    Expected design duration: 7, Expected completion time: 117
+  Order 30: progress 2/6 (remaining: 4, expected completion: 96)
+    Expected design duration: 7, Expected completion time: 120
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 26 (remaining: 15, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Working on Order 23 (remaining: 5, completion at: 97)
+    Order expected completion time: 99, Will be delayed: False
+  Line 3: Available
+  Line 4: Available
+  Line 5: Working on Order 28 (remaining: 18, completion at: 110)
+    Order expected completion time: 114, Will be delayed: False
+  Line 6: Working on Order 25 (remaining: 10, completion at: 102)
+    Order expected completion time: 105, Will be delayed: False
+  Line 7: Working on Order 22 (remaining: 2, completion at: 94)
+    Order expected completion time: 96, Will be delayed: False
+  Line 8: Working on Order 24 (remaining: 10, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Working on Order 27 (remaining: 15, completion at: 107)
+    Order expected completion time: 111, Will be delayed: False
+
+Time step: 93
+Active orders: 9
+Completed orders: 22
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 30: progress 3/6 (remaining: 3, expected completion: 96)
+    Expected design duration: 7, Expected completion time: 120
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 23, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Working on Order 26 (remaining: 14, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Working on Order 23 (remaining: 4, completion at: 97)
+    Order expected completion time: 99, Will be delayed: False
+  Line 3: Available
+  Line 4: Available
+  Line 5: Working on Order 28 (remaining: 17, completion at: 110)
+    Order expected completion time: 114, Will be delayed: False
+  Line 6: Working on Order 25 (remaining: 9, completion at: 102)
+    Order expected completion time: 105, Will be delayed: False
+  Line 7: Working on Order 22 (remaining: 1, completion at: 94)
+    Order expected completion time: 96, Will be delayed: False
+  Line 8: Working on Order 24 (remaining: 9, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Working on Order 27 (remaining: 14, completion at: 107)
+    Order expected completion time: 111, Will be delayed: False
+
+Time step: 94
+Active orders: 10
+Completed orders: 22
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 30: progress 4/6 (remaining: 2, expected completion: 96)
+    Expected design duration: 7, Expected completion time: 120
+  Order 31: progress 1/6 (remaining: 5, expected completion: 99)
+    Expected design duration: 7, Expected completion time: 123
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 22, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Working on Order 26 (remaining: 13, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Working on Order 23 (remaining: 3, completion at: 97)
+    Order expected completion time: 99, Will be delayed: False
+  Line 3: Available
+  Line 4: Available
+  Line 5: Working on Order 28 (remaining: 16, completion at: 110)
+    Order expected completion time: 114, Will be delayed: False
+  Line 6: Working on Order 25 (remaining: 8, completion at: 102)
+    Order expected completion time: 105, Will be delayed: False
+  Line 7: Working on Order 22 (remaining: 0, completion at: 94)
+    Order expected completion time: 96, Will be delayed: False
+  Line 8: Working on Order 24 (remaining: 8, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Working on Order 27 (remaining: 13, completion at: 107)
+    Order expected completion time: 111, Will be delayed: False
+
+Time step: 95
+Active orders: 9
+Completed orders: 23
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 30: progress 5/6 (remaining: 1, expected completion: 96)
+    Expected design duration: 7, Expected completion time: 120
+  Order 31: progress 2/6 (remaining: 4, expected completion: 99)
+    Expected design duration: 7, Expected completion time: 123
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 21, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Working on Order 26 (remaining: 12, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Working on Order 23 (remaining: 2, completion at: 97)
+    Order expected completion time: 99, Will be delayed: False
+  Line 3: Available
+  Line 4: Available
+  Line 5: Working on Order 28 (remaining: 15, completion at: 110)
+    Order expected completion time: 114, Will be delayed: False
+  Line 6: Working on Order 25 (remaining: 7, completion at: 102)
+    Order expected completion time: 105, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 24 (remaining: 7, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Working on Order 27 (remaining: 12, completion at: 107)
+    Order expected completion time: 111, Will be delayed: False
+
+Time step: 96
+Active orders: 9
+Completed orders: 23
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 31: progress 3/6 (remaining: 3, expected completion: 99)
+    Expected design duration: 7, Expected completion time: 123
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 20, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Working on Order 26 (remaining: 11, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Working on Order 23 (remaining: 1, completion at: 97)
+    Order expected completion time: 99, Will be delayed: False
+  Line 3: Available
+  Line 4: Working on Order 30 (remaining: 23, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Working on Order 28 (remaining: 14, completion at: 110)
+    Order expected completion time: 114, Will be delayed: False
+  Line 6: Working on Order 25 (remaining: 6, completion at: 102)
+    Order expected completion time: 105, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 24 (remaining: 6, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Working on Order 27 (remaining: 11, completion at: 107)
+    Order expected completion time: 111, Will be delayed: False
+
+Time step: 97
+Active orders: 10
+Completed orders: 23
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 31: progress 4/6 (remaining: 2, expected completion: 99)
+    Expected design duration: 7, Expected completion time: 123
+  Order 32: progress 1/6 (remaining: 5, expected completion: 102)
+    Expected design duration: 7, Expected completion time: 126
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 19, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Working on Order 26 (remaining: 10, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Working on Order 23 (remaining: 0, completion at: 97)
+    Order expected completion time: 99, Will be delayed: False
+  Line 3: Available
+  Line 4: Working on Order 30 (remaining: 22, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Working on Order 28 (remaining: 13, completion at: 110)
+    Order expected completion time: 114, Will be delayed: False
+  Line 6: Working on Order 25 (remaining: 5, completion at: 102)
+    Order expected completion time: 105, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 24 (remaining: 5, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Working on Order 27 (remaining: 10, completion at: 107)
+    Order expected completion time: 111, Will be delayed: False
+
+Time step: 98
+Active orders: 9
+Completed orders: 24
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 31: progress 5/6 (remaining: 1, expected completion: 99)
+    Expected design duration: 7, Expected completion time: 123
+  Order 32: progress 2/6 (remaining: 4, expected completion: 102)
+    Expected design duration: 7, Expected completion time: 126
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 18, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Working on Order 26 (remaining: 9, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Available
+  Line 3: Available
+  Line 4: Working on Order 30 (remaining: 21, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Working on Order 28 (remaining: 12, completion at: 110)
+    Order expected completion time: 114, Will be delayed: False
+  Line 6: Working on Order 25 (remaining: 4, completion at: 102)
+    Order expected completion time: 105, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 24 (remaining: 4, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Working on Order 27 (remaining: 9, completion at: 107)
+    Order expected completion time: 111, Will be delayed: False
+
+Time step: 99
+Active orders: 9
+Completed orders: 24
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 32: progress 3/6 (remaining: 3, expected completion: 102)
+    Expected design duration: 7, Expected completion time: 126
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 17, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Working on Order 26 (remaining: 8, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Available
+  Line 3: Working on Order 31 (remaining: 23, completion at: 122)
+    Order expected completion time: 123, Will be delayed: False
+  Line 4: Working on Order 30 (remaining: 20, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Working on Order 28 (remaining: 11, completion at: 110)
+    Order expected completion time: 114, Will be delayed: False
+  Line 6: Working on Order 25 (remaining: 3, completion at: 102)
+    Order expected completion time: 105, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 24 (remaining: 3, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Working on Order 27 (remaining: 8, completion at: 107)
+    Order expected completion time: 111, Will be delayed: False
+
+Time step: 100
+Active orders: 10
+Completed orders: 24
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 32: progress 4/6 (remaining: 2, expected completion: 102)
+    Expected design duration: 7, Expected completion time: 126
+  Order 33: progress 1/6 (remaining: 5, expected completion: 105)
+    Expected design duration: 7, Expected completion time: 129
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 16, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Working on Order 26 (remaining: 7, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Available
+  Line 3: Working on Order 31 (remaining: 22, completion at: 122)
+    Order expected completion time: 123, Will be delayed: False
+  Line 4: Working on Order 30 (remaining: 19, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Working on Order 28 (remaining: 10, completion at: 110)
+    Order expected completion time: 114, Will be delayed: False
+  Line 6: Working on Order 25 (remaining: 2, completion at: 102)
+    Order expected completion time: 105, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 24 (remaining: 2, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Working on Order 27 (remaining: 7, completion at: 107)
+    Order expected completion time: 111, Will be delayed: False
+
+Time step: 101
+Active orders: 10
+Completed orders: 24
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 32: progress 5/6 (remaining: 1, expected completion: 102)
+    Expected design duration: 7, Expected completion time: 126
+  Order 33: progress 2/6 (remaining: 4, expected completion: 105)
+    Expected design duration: 7, Expected completion time: 129
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 15, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Working on Order 26 (remaining: 6, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Available
+  Line 3: Working on Order 31 (remaining: 21, completion at: 122)
+    Order expected completion time: 123, Will be delayed: False
+  Line 4: Working on Order 30 (remaining: 18, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Working on Order 28 (remaining: 9, completion at: 110)
+    Order expected completion time: 114, Will be delayed: False
+  Line 6: Working on Order 25 (remaining: 1, completion at: 102)
+    Order expected completion time: 105, Will be delayed: False
+  Line 7: Available
+  Line 8: Working on Order 24 (remaining: 1, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Working on Order 27 (remaining: 6, completion at: 107)
+    Order expected completion time: 111, Will be delayed: False
+
+Time step: 102
+Active orders: 10
+Completed orders: 24
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 33: progress 3/6 (remaining: 3, expected completion: 105)
+    Expected design duration: 7, Expected completion time: 129
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 14, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Working on Order 26 (remaining: 5, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Available
+  Line 3: Working on Order 31 (remaining: 20, completion at: 122)
+    Order expected completion time: 123, Will be delayed: False
+  Line 4: Working on Order 30 (remaining: 17, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Working on Order 28 (remaining: 8, completion at: 110)
+    Order expected completion time: 114, Will be delayed: False
+  Line 6: Working on Order 25 (remaining: 0, completion at: 102)
+    Order expected completion time: 105, Will be delayed: False
+  Line 7: Working on Order 32 (remaining: 23, completion at: 125)
+    Order expected completion time: 126, Will be delayed: False
+  Line 8: Working on Order 24 (remaining: 0, completion at: 102)
+    Order expected completion time: 102, Will be delayed: False
+  Line 9: Working on Order 27 (remaining: 5, completion at: 107)
+    Order expected completion time: 111, Will be delayed: False
+
+Time step: 103
+Active orders: 9
+Completed orders: 26
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 33: progress 4/6 (remaining: 2, expected completion: 105)
+    Expected design duration: 7, Expected completion time: 129
+  Order 34: progress 1/5 (remaining: 4, expected completion: 107)
+    Expected design duration: 7, Expected completion time: 132
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 13, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Working on Order 26 (remaining: 4, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Available
+  Line 3: Working on Order 31 (remaining: 19, completion at: 122)
+    Order expected completion time: 123, Will be delayed: False
+  Line 4: Working on Order 30 (remaining: 16, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Working on Order 28 (remaining: 7, completion at: 110)
+    Order expected completion time: 114, Will be delayed: False
+  Line 6: Available
+  Line 7: Working on Order 32 (remaining: 22, completion at: 125)
+    Order expected completion time: 126, Will be delayed: False
+  Line 8: Available
+  Line 9: Working on Order 27 (remaining: 4, completion at: 107)
+    Order expected completion time: 111, Will be delayed: False
+
+Time step: 104
+Active orders: 9
+Completed orders: 26
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 33: progress 5/6 (remaining: 1, expected completion: 105)
+    Expected design duration: 7, Expected completion time: 129
+  Order 34: progress 2/5 (remaining: 3, expected completion: 107)
+    Expected design duration: 7, Expected completion time: 132
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 12, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Working on Order 26 (remaining: 3, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Available
+  Line 3: Working on Order 31 (remaining: 18, completion at: 122)
+    Order expected completion time: 123, Will be delayed: False
+  Line 4: Working on Order 30 (remaining: 15, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Working on Order 28 (remaining: 6, completion at: 110)
+    Order expected completion time: 114, Will be delayed: False
+  Line 6: Available
+  Line 7: Working on Order 32 (remaining: 21, completion at: 125)
+    Order expected completion time: 126, Will be delayed: False
+  Line 8: Available
+  Line 9: Working on Order 27 (remaining: 3, completion at: 107)
+    Order expected completion time: 111, Will be delayed: False
+
+Time step: 105
+Active orders: 9
+Completed orders: 26
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 34: progress 3/5 (remaining: 2, expected completion: 107)
+    Expected design duration: 7, Expected completion time: 132
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 11, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Working on Order 26 (remaining: 2, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Available
+  Line 3: Working on Order 31 (remaining: 17, completion at: 122)
+    Order expected completion time: 123, Will be delayed: False
+  Line 4: Working on Order 30 (remaining: 14, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Working on Order 28 (remaining: 5, completion at: 110)
+    Order expected completion time: 114, Will be delayed: False
+  Line 6: Working on Order 33 (remaining: 22, completion at: 127)
+    Order expected completion time: 129, Will be delayed: False
+  Line 7: Working on Order 32 (remaining: 20, completion at: 125)
+    Order expected completion time: 126, Will be delayed: False
+  Line 8: Available
+  Line 9: Working on Order 27 (remaining: 2, completion at: 107)
+    Order expected completion time: 111, Will be delayed: False
+
+Time step: 106
+Active orders: 10
+Completed orders: 26
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 34: progress 4/5 (remaining: 1, expected completion: 107)
+    Expected design duration: 7, Expected completion time: 132
+  Order 35: progress 1/6 (remaining: 5, expected completion: 111)
+    Expected design duration: 7, Expected completion time: 135
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 10, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Working on Order 26 (remaining: 1, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Available
+  Line 3: Working on Order 31 (remaining: 16, completion at: 122)
+    Order expected completion time: 123, Will be delayed: False
+  Line 4: Working on Order 30 (remaining: 13, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Working on Order 28 (remaining: 4, completion at: 110)
+    Order expected completion time: 114, Will be delayed: False
+  Line 6: Working on Order 33 (remaining: 21, completion at: 127)
+    Order expected completion time: 129, Will be delayed: False
+  Line 7: Working on Order 32 (remaining: 19, completion at: 125)
+    Order expected completion time: 126, Will be delayed: False
+  Line 8: Available
+  Line 9: Working on Order 27 (remaining: 1, completion at: 107)
+    Order expected completion time: 111, Will be delayed: False
+
+Time step: 107
+Active orders: 10
+Completed orders: 26
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 35: progress 2/6 (remaining: 4, expected completion: 111)
+    Expected design duration: 7, Expected completion time: 135
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 9, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Working on Order 26 (remaining: 0, completion at: 107)
+    Order expected completion time: 108, Will be delayed: False
+  Line 2: Available
+  Line 3: Working on Order 31 (remaining: 15, completion at: 122)
+    Order expected completion time: 123, Will be delayed: False
+  Line 4: Working on Order 30 (remaining: 12, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Working on Order 28 (remaining: 3, completion at: 110)
+    Order expected completion time: 114, Will be delayed: False
+  Line 6: Working on Order 33 (remaining: 20, completion at: 127)
+    Order expected completion time: 129, Will be delayed: False
+  Line 7: Working on Order 32 (remaining: 18, completion at: 125)
+    Order expected completion time: 126, Will be delayed: False
+  Line 8: Working on Order 34 (remaining: 20, completion at: 127)
+    Order expected completion time: 132, Will be delayed: False
+  Line 9: Working on Order 27 (remaining: 0, completion at: 107)
+    Order expected completion time: 111, Will be delayed: False
+
+Time step: 108
+Active orders: 8
+Completed orders: 28
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 35: progress 3/6 (remaining: 3, expected completion: 111)
+    Expected design duration: 7, Expected completion time: 135
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 8, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Available
+  Line 2: Available
+  Line 3: Working on Order 31 (remaining: 14, completion at: 122)
+    Order expected completion time: 123, Will be delayed: False
+  Line 4: Working on Order 30 (remaining: 11, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Working on Order 28 (remaining: 2, completion at: 110)
+    Order expected completion time: 114, Will be delayed: False
+  Line 6: Working on Order 33 (remaining: 19, completion at: 127)
+    Order expected completion time: 129, Will be delayed: False
+  Line 7: Working on Order 32 (remaining: 17, completion at: 125)
+    Order expected completion time: 126, Will be delayed: False
+  Line 8: Working on Order 34 (remaining: 19, completion at: 127)
+    Order expected completion time: 132, Will be delayed: False
+  Line 9: Available
+
+Time step: 109
+Active orders: 9
+Completed orders: 28
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 35: progress 4/6 (remaining: 2, expected completion: 111)
+    Expected design duration: 7, Expected completion time: 135
+  Order 36: progress 1/6 (remaining: 5, expected completion: 114)
+    Expected design duration: 7, Expected completion time: 138
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 7, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Available
+  Line 2: Available
+  Line 3: Working on Order 31 (remaining: 13, completion at: 122)
+    Order expected completion time: 123, Will be delayed: False
+  Line 4: Working on Order 30 (remaining: 10, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Working on Order 28 (remaining: 1, completion at: 110)
+    Order expected completion time: 114, Will be delayed: False
+  Line 6: Working on Order 33 (remaining: 18, completion at: 127)
+    Order expected completion time: 129, Will be delayed: False
+  Line 7: Working on Order 32 (remaining: 16, completion at: 125)
+    Order expected completion time: 126, Will be delayed: False
+  Line 8: Working on Order 34 (remaining: 18, completion at: 127)
+    Order expected completion time: 132, Will be delayed: False
+  Line 9: Available
+
+Time step: 110
+Active orders: 9
+Completed orders: 28
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 35: progress 5/6 (remaining: 1, expected completion: 111)
+    Expected design duration: 7, Expected completion time: 135
+  Order 36: progress 2/6 (remaining: 4, expected completion: 114)
+    Expected design duration: 7, Expected completion time: 138
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 6, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Available
+  Line 2: Available
+  Line 3: Working on Order 31 (remaining: 12, completion at: 122)
+    Order expected completion time: 123, Will be delayed: False
+  Line 4: Working on Order 30 (remaining: 9, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Working on Order 28 (remaining: 0, completion at: 110)
+    Order expected completion time: 114, Will be delayed: False
+  Line 6: Working on Order 33 (remaining: 17, completion at: 127)
+    Order expected completion time: 129, Will be delayed: False
+  Line 7: Working on Order 32 (remaining: 15, completion at: 125)
+    Order expected completion time: 126, Will be delayed: False
+  Line 8: Working on Order 34 (remaining: 17, completion at: 127)
+    Order expected completion time: 132, Will be delayed: False
+  Line 9: Available
+
+Time step: 111
+Active orders: 8
+Completed orders: 29
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 36: progress 3/6 (remaining: 3, expected completion: 114)
+    Expected design duration: 7, Expected completion time: 138
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 5, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Available
+  Line 2: Available
+  Line 3: Working on Order 31 (remaining: 11, completion at: 122)
+    Order expected completion time: 123, Will be delayed: False
+  Line 4: Working on Order 30 (remaining: 8, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Available
+  Line 6: Working on Order 33 (remaining: 16, completion at: 127)
+    Order expected completion time: 129, Will be delayed: False
+  Line 7: Working on Order 32 (remaining: 14, completion at: 125)
+    Order expected completion time: 126, Will be delayed: False
+  Line 8: Working on Order 34 (remaining: 16, completion at: 127)
+    Order expected completion time: 132, Will be delayed: False
+  Line 9: Working on Order 35 (remaining: 21, completion at: 132)
+    Order expected completion time: 135, Will be delayed: False
+
+Time step: 112
+Active orders: 9
+Completed orders: 29
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 36: progress 4/6 (remaining: 2, expected completion: 114)
+    Expected design duration: 7, Expected completion time: 138
+  Order 37: progress 1/6 (remaining: 5, expected completion: 117)
+    Expected design duration: 7, Expected completion time: 141
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 4, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Available
+  Line 2: Available
+  Line 3: Working on Order 31 (remaining: 10, completion at: 122)
+    Order expected completion time: 123, Will be delayed: False
+  Line 4: Working on Order 30 (remaining: 7, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Available
+  Line 6: Working on Order 33 (remaining: 15, completion at: 127)
+    Order expected completion time: 129, Will be delayed: False
+  Line 7: Working on Order 32 (remaining: 13, completion at: 125)
+    Order expected completion time: 126, Will be delayed: False
+  Line 8: Working on Order 34 (remaining: 15, completion at: 127)
+    Order expected completion time: 132, Will be delayed: False
+  Line 9: Working on Order 35 (remaining: 20, completion at: 132)
+    Order expected completion time: 135, Will be delayed: False
+
+Time step: 113
+Active orders: 9
+Completed orders: 29
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 36: progress 5/6 (remaining: 1, expected completion: 114)
+    Expected design duration: 7, Expected completion time: 138
+  Order 37: progress 2/6 (remaining: 4, expected completion: 117)
+    Expected design duration: 7, Expected completion time: 141
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 3, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Available
+  Line 2: Available
+  Line 3: Working on Order 31 (remaining: 9, completion at: 122)
+    Order expected completion time: 123, Will be delayed: False
+  Line 4: Working on Order 30 (remaining: 6, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Available
+  Line 6: Working on Order 33 (remaining: 14, completion at: 127)
+    Order expected completion time: 129, Will be delayed: False
+  Line 7: Working on Order 32 (remaining: 12, completion at: 125)
+    Order expected completion time: 126, Will be delayed: False
+  Line 8: Working on Order 34 (remaining: 14, completion at: 127)
+    Order expected completion time: 132, Will be delayed: False
+  Line 9: Working on Order 35 (remaining: 19, completion at: 132)
+    Order expected completion time: 135, Will be delayed: False
+
+Time step: 114
+Active orders: 9
+Completed orders: 29
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 37: progress 3/6 (remaining: 3, expected completion: 117)
+    Expected design duration: 7, Expected completion time: 141
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 2, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Available
+  Line 2: Working on Order 36 (remaining: 23, completion at: 137)
+    Order expected completion time: 138, Will be delayed: False
+  Line 3: Working on Order 31 (remaining: 8, completion at: 122)
+    Order expected completion time: 123, Will be delayed: False
+  Line 4: Working on Order 30 (remaining: 5, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Available
+  Line 6: Working on Order 33 (remaining: 13, completion at: 127)
+    Order expected completion time: 129, Will be delayed: False
+  Line 7: Working on Order 32 (remaining: 11, completion at: 125)
+    Order expected completion time: 126, Will be delayed: False
+  Line 8: Working on Order 34 (remaining: 13, completion at: 127)
+    Order expected completion time: 132, Will be delayed: False
+  Line 9: Working on Order 35 (remaining: 18, completion at: 132)
+    Order expected completion time: 135, Will be delayed: False
+
+Time step: 115
+Active orders: 10
+Completed orders: 29
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 37: progress 4/6 (remaining: 2, expected completion: 117)
+    Expected design duration: 7, Expected completion time: 141
+  Order 38: progress 1/6 (remaining: 5, expected completion: 120)
+    Expected design duration: 7, Expected completion time: 144
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 1, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Available
+  Line 2: Working on Order 36 (remaining: 22, completion at: 137)
+    Order expected completion time: 138, Will be delayed: False
+  Line 3: Working on Order 31 (remaining: 7, completion at: 122)
+    Order expected completion time: 123, Will be delayed: False
+  Line 4: Working on Order 30 (remaining: 4, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Available
+  Line 6: Working on Order 33 (remaining: 12, completion at: 127)
+    Order expected completion time: 129, Will be delayed: False
+  Line 7: Working on Order 32 (remaining: 10, completion at: 125)
+    Order expected completion time: 126, Will be delayed: False
+  Line 8: Working on Order 34 (remaining: 12, completion at: 127)
+    Order expected completion time: 132, Will be delayed: False
+  Line 9: Working on Order 35 (remaining: 17, completion at: 132)
+    Order expected completion time: 135, Will be delayed: False
+
+Time step: 116
+Active orders: 10
+Completed orders: 29
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 37: progress 5/6 (remaining: 1, expected completion: 117)
+    Expected design duration: 7, Expected completion time: 141
+  Order 38: progress 2/6 (remaining: 4, expected completion: 120)
+    Expected design duration: 7, Expected completion time: 144
+
+Production Lines Status:
+  Line 0: Working on Order 29 (remaining: 0, completion at: 116)
+    Order expected completion time: 117, Will be delayed: False
+  Line 1: Available
+  Line 2: Working on Order 36 (remaining: 21, completion at: 137)
+    Order expected completion time: 138, Will be delayed: False
+  Line 3: Working on Order 31 (remaining: 6, completion at: 122)
+    Order expected completion time: 123, Will be delayed: False
+  Line 4: Working on Order 30 (remaining: 3, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Available
+  Line 6: Working on Order 33 (remaining: 11, completion at: 127)
+    Order expected completion time: 129, Will be delayed: False
+  Line 7: Working on Order 32 (remaining: 9, completion at: 125)
+    Order expected completion time: 126, Will be delayed: False
+  Line 8: Working on Order 34 (remaining: 11, completion at: 127)
+    Order expected completion time: 132, Will be delayed: False
+  Line 9: Working on Order 35 (remaining: 16, completion at: 132)
+    Order expected completion time: 135, Will be delayed: False
+
+Time step: 117
+Active orders: 9
+Completed orders: 30
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 38: progress 3/6 (remaining: 3, expected completion: 120)
+    Expected design duration: 7, Expected completion time: 144
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 37 (remaining: 19, completion at: 136)
+    Order expected completion time: 141, Will be delayed: False
+  Line 2: Working on Order 36 (remaining: 20, completion at: 137)
+    Order expected completion time: 138, Will be delayed: False
+  Line 3: Working on Order 31 (remaining: 5, completion at: 122)
+    Order expected completion time: 123, Will be delayed: False
+  Line 4: Working on Order 30 (remaining: 2, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Available
+  Line 6: Working on Order 33 (remaining: 10, completion at: 127)
+    Order expected completion time: 129, Will be delayed: False
+  Line 7: Working on Order 32 (remaining: 8, completion at: 125)
+    Order expected completion time: 126, Will be delayed: False
+  Line 8: Working on Order 34 (remaining: 10, completion at: 127)
+    Order expected completion time: 132, Will be delayed: False
+  Line 9: Working on Order 35 (remaining: 15, completion at: 132)
+    Order expected completion time: 135, Will be delayed: False
+
+Time step: 118
+Active orders: 10
+Completed orders: 30
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 38: progress 4/6 (remaining: 2, expected completion: 120)
+    Expected design duration: 7, Expected completion time: 144
+  Order 39: progress 1/6 (remaining: 5, expected completion: 123)
+    Expected design duration: 7, Expected completion time: 147
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 37 (remaining: 18, completion at: 136)
+    Order expected completion time: 141, Will be delayed: False
+  Line 2: Working on Order 36 (remaining: 19, completion at: 137)
+    Order expected completion time: 138, Will be delayed: False
+  Line 3: Working on Order 31 (remaining: 4, completion at: 122)
+    Order expected completion time: 123, Will be delayed: False
+  Line 4: Working on Order 30 (remaining: 1, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Available
+  Line 6: Working on Order 33 (remaining: 9, completion at: 127)
+    Order expected completion time: 129, Will be delayed: False
+  Line 7: Working on Order 32 (remaining: 7, completion at: 125)
+    Order expected completion time: 126, Will be delayed: False
+  Line 8: Working on Order 34 (remaining: 9, completion at: 127)
+    Order expected completion time: 132, Will be delayed: False
+  Line 9: Working on Order 35 (remaining: 14, completion at: 132)
+    Order expected completion time: 135, Will be delayed: False
+
+======== DELAY STATISTICS (Time Step 119) ========
+Total Orders: 40
+Total Delayed Orders: 0
+Completed Delayed Orders: 0
+Active Overdue Orders: 0
+Expected Delayed Orders: 0
+Delay Ratio: 0.0000
+=======================================
+
+
+Time step: 119
+Active orders: 10
+Completed orders: 30
+Ongoing designs: 2
+Design queue length: 0
+
+Design Department Status:
+  Order 38: progress 5/6 (remaining: 1, expected completion: 120)
+    Expected design duration: 7, Expected completion time: 144
+  Order 39: progress 2/6 (remaining: 4, expected completion: 123)
+    Expected design duration: 7, Expected completion time: 147
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 37 (remaining: 17, completion at: 136)
+    Order expected completion time: 141, Will be delayed: False
+  Line 2: Working on Order 36 (remaining: 18, completion at: 137)
+    Order expected completion time: 138, Will be delayed: False
+  Line 3: Working on Order 31 (remaining: 3, completion at: 122)
+    Order expected completion time: 123, Will be delayed: False
+  Line 4: Working on Order 30 (remaining: 0, completion at: 119)
+    Order expected completion time: 120, Will be delayed: False
+  Line 5: Available
+  Line 6: Working on Order 33 (remaining: 8, completion at: 127)
+    Order expected completion time: 129, Will be delayed: False
+  Line 7: Working on Order 32 (remaining: 6, completion at: 125)
+    Order expected completion time: 126, Will be delayed: False
+  Line 8: Working on Order 34 (remaining: 8, completion at: 127)
+    Order expected completion time: 132, Will be delayed: False
+  Line 9: Working on Order 35 (remaining: 13, completion at: 132)
+    Order expected completion time: 135, Will be delayed: False
+
+Time step: 120
+Active orders: 9
+Completed orders: 31
+Ongoing designs: 1
+Design queue length: 0
+
+Design Department Status:
+  Order 39: progress 3/6 (remaining: 3, expected completion: 123)
+    Expected design duration: 7, Expected completion time: 147
+
+Production Lines Status:
+  Line 0: Available
+  Line 1: Working on Order 37 (remaining: 16, completion at: 136)
+    Order expected completion time: 141, Will be delayed: False
+  Line 2: Working on Order 36 (remaining: 17, completion at: 137)
+    Order expected completion time: 138, Will be delayed: False
+  Line 3: Working on Order 31 (remaining: 2, completion at: 122)
+    Order expected completion time: 123, Will be delayed: False
+  Line 4: Available
+  Line 5: Working on Order 38 (remaining: 22, completion at: 142)
+    Order expected completion time: 144, Will be delayed: False
+  Line 6: Working on Order 33 (remaining: 7, completion at: 127)
+    Order expected completion time: 129, Will be delayed: False
+  Line 7: Working on Order 32 (remaining: 5, completion at: 125)
+    Order expected completion time: 126, Will be delayed: False
+  Line 8: Working on Order 34 (remaining: 7, completion at: 127)
+    Order expected completion time: 132, Will be delayed: False
+  Line 9: Working on Order 35 (remaining: 12, completion at: 132)
+    Order expected completion time: 135, Will be delayed: False
+
+Simulation ended at time step 120
