@@ -4,8 +4,6 @@ import agentpy as ap
 from typing import Dict
 from src.environment.factory_env import FactoryEnvironment
 
-# Factory model class for simulation
-
 class FactoryModel(ap.Model):
     """Factory model class"""
     
@@ -17,7 +15,7 @@ class FactoryModel(ap.Model):
         self.inconvenience_level = self.p['inconvenience_level']
         self.order_duration = self.p['order_duration']
         
-        # Fixed parameters - Get fixed values from experiment
+        # Fixed parameters - get fixed values from experiment
         self.simulation_duration = self.p['simulation_duration']
         self.order_generation_interval = self.p['order_generation_interval']
         self.base_order_value = self.p['base_order_value']
@@ -37,11 +35,11 @@ class FactoryModel(ap.Model):
         self.data = []
         
     def step(self):
-        """Model step update"""
+        """Model step"""
         # Environment step and get state
         state = self.env.step()
         
-        # Record state at each time step
+        # Record state for each time step
         if state is not None:
             self.data.append(state)
         
@@ -69,5 +67,8 @@ class FactoryModel(ap.Model):
         print(f"Equipment efficiency: {final_state['equipment_efficiency']}")
         print(f"Delay ratio: {final_state['delay_ratio']}")
         print(f"Profit/Cost ratio: {final_state['profit_cost_ratio']}")
+        
+        # Reset environment
+        self.env.reset()
         
         return {'final_state': final_state}
