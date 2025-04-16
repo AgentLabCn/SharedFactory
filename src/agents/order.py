@@ -38,7 +38,7 @@ class Order:
         self.production_start_time = None
         self.completion_time = None
         
-        # Status variables
+        # State variables
         self._delay_time = 0
         self.is_completed = False
         self.design_mismatch = 0
@@ -60,14 +60,14 @@ class Order:
     
     @property
     def design_time(self) -> int:
-        """Get design phase time"""
+        """Get design phase duration"""
         if self.design_completion_time is None:
             return 0
         return self.design_completion_time - self.design_start_time
     
     @property
     def production_time(self) -> int:
-        """Get production phase time"""
+        """Get production phase duration"""
         if self.completion_time is None:
             return 0
         return self.completion_time - self.production_start_time
