@@ -1,4 +1,4 @@
-# Design department agent class for managing design processes
+# src/agents/design_department.py
 
 import numpy as np
 from typing import List, Dict, Tuple
@@ -8,12 +8,12 @@ class DesignDepartment:
     
     def __init__(self, shared_factory, knowledge_transfer_rate):
         self.completed_designs = 0  # Number of completed designs
-        self.ongoing_designs = {}   # Current designs in progress {order_id: progress}
+        self.ongoing_designs = {}   # Ongoing designs {order_id: progress}
         self.design_queue = []      # Design queue
-        self.design_costs = {}      # Design costs per order
+        self.design_costs = {}      # Design costs for each order
         self.knowledge_transfer_rate = knowledge_transfer_rate
         self.shared_factory = shared_factory
-        self.max_concurrent_designs = 0  # Set in factory_env to match production lines
+        self.max_concurrent_designs = 0  # Will be set to number of production lines in factory_env
         
     def set_max_concurrent_designs(self, num_production_lines: int):
         """Set maximum number of concurrent designs"""
@@ -30,28 +30,31 @@ class DesignDepartment:
         best_line = None
         min_cost = float('inf')
         
-        # Check for available lines at expected completion time
+        # Check for available production lines at expected completion time
         available_lines = []
         earliest_completion = float('inf')
         
         for line in production_lines:
+            # First check if line is currently idle
             if line.is_working:
                 continue
-                
+            
+            # Then check availability at expected completion time    
             if line.is_available_at(expected_completion_time):
                 available_lines.append(line)
             else:
+                # Record earliest completion time
                 completion_time = line.get_next_available_time()
                 if completion_time < earliest_completion:
                     earliest_completion = completion_time
         
-        # If no lines available, select from earliest completion time
+        # If no available lines, select from lines with earliest completion time
         candidate_lines = available_lines if available_lines else \
                          [line for line in production_lines 
-                          if not line.is_working and  
+                          if not line.is_working and  # Add check for current working status
                           line.get_next_available_time() == earliest_completion]
         
-        # Select line with minimum u_j × r_it from candidates
+        # Select line with minimum u_j × r_it
         for line in candidate_lines:
             mismatch = (order.quality_req - line.quality_index) ** 2 / 100
             cost = mismatch * line.completed_orders
@@ -63,14 +66,17 @@ class DesignDepartment:
         return best_line.id if best_line else None, min_cost
         
     def calculate_design_duration(self, order, knowledge_level: float) -> int:
-        """Calculate design duration with knowledge effect"""
+        """Calculate design duration
+        Base time = du_j × era_j
+        Actual time = Base time × (1 + β) × k_t
+        """
         base_duration = order.duration * order.era_ratio
         beta = np.random.uniform(-0.1, 0.1)
         duration = base_duration * (1 + beta) * knowledge_level  
         return max(1, int(duration))
 
     def start_design(self, order, current_time: int, knowledge_level: float):
-        """Start design process for an order"""
+        """Start design for an order"""
         duration = self.calculate_design_duration(order, knowledge_level)
         
         if len(self.ongoing_designs) >= self.max_concurrent_designs:
@@ -96,7 +102,7 @@ class DesignDepartment:
         """Time step update"""
         completed_orders = []
         
-        # Ensure not exceeding max concurrent designs
+        # Ensure not exceeding maximum concurrent designs
         assert len(self.ongoing_designs) <= self.max_concurrent_designs, \
                f"Too many ongoing designs: {len(self.ongoing_designs)}"
         
@@ -113,7 +119,7 @@ class DesignDepartment:
                 # Notify SharedFactory of design completion
                 self.shared_factory.completed_designs += 1
                 
-                # Start new design from queue
+                # Start new design from queue if available
                 if self.design_queue:
                     next_design = self.design_queue.pop(0)
                     self.start_design(
@@ -131,6 +137,6 @@ class DesignDepartment:
         return len(self.design_queue)
         
     def get_total_orders(self) -> int:
-        """Get total orders in design department (ongoing + queued)"""
+        """Get total number of orders in design department (ongoing + queued)"""
         return len(self.ongoing_designs) + len(self.design_queue)
     
